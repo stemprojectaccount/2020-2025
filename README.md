@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinh Danh Học Sinh Xuất Sắc - 20 Năm học</title>
+    <title>Vinh Danh Học Sinh Xuất Sắc - Trường THPT Chuyên ABC</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
@@ -32,6 +32,8 @@
             --gradient-card: linear-gradient(135deg, rgba(58, 109, 201, 0.8), rgba(42, 77, 155, 0.9));
             --gradient-orange: linear-gradient(135deg, rgba(255, 140, 66, 0.9), rgba(232, 106, 51, 0.9));
             --gradient-green: linear-gradient(135deg, rgba(76, 175, 80, 0.9), rgba(56, 142, 60, 0.9));
+            --gradient-purple: linear-gradient(135deg, rgba(156, 39, 176, 0.9), rgba(123, 31, 162, 0.9));
+            --gradient-teal: linear-gradient(135deg, rgba(0, 150, 136, 0.9), rgba(0, 121, 107, 0.9));
             --transition-slow: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             --transition-medium: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             --transition-fast: all 0.3s ease;
@@ -247,9 +249,8 @@
             }
         }
         
-        /* CHỈNH SỬA: Làm chữ VINH DANH to hơn */
         .glowing-text {
-            font-size: 7rem; /* Tăng từ 5rem lên 7rem */
+            font-size: 7rem;
             margin-bottom: 20px;
             text-shadow: 0 0 10px rgba(254 , 224 , 255 , 0 ), 0 0 20px rgba(255, 215, 0, 0.5), 0 0 30px rgba(255, 215, 0, 0 );
             position: relative;
@@ -415,11 +416,109 @@
             font-weight: 500;
         }
         
+        /* ===== STUDENTS GRID STYLES ===== */
+        .students-section {
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+            display: none;
+        }
+        
+        .students-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .student-card {
+            background: linear-gradient(135deg, rgba(58, 109, 201, 0.7), rgba(42, 77, 155, 0.8));
+            border-radius: 20px;
+            padding: 30px;
+            border: 2px solid rgba(255, 215, 0, 0.4);
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+            min-height: 280px;
+        }
+        
+        .student-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+            transform: translateX(-100%) skewX(-15deg);
+            transition: transform 0.8s;
+        }
+        
+        .student-card:hover::before {
+            transform: translateX(100%) skewX(-15deg);
+        }
+        
+        .student-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4), 0 0 30px rgba(255, 215, 0, 0.4);
+        }
+        
+        .student-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid rgba(255, 215, 0, 0.5);
+            margin-bottom: 20px;
+            box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+        }
+        
+        .student-card h3 {
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+        
+        .student-card p {
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+            color: #e0e0ff;
+            line-height: 1.5;
+        }
+        
+        .student-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #FFD700;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+            filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.5));
+        }
+        
+        .achievement-badge {
+            background: linear-gradient(135deg, rgba(255, 140, 66, 0.8), rgba(232, 106, 51, 0.8));
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-top: 10px;
+            border: 1px solid rgba(255, 215, 0, 0.5);
+        }
+        
         /* ===== BACK BUTTON STYLES ===== */
         .back-section {
             width: 100%;
             text-align: center;
-            margin-top: 30px;
+            margin-top: 50px;
         }
         
         .back-button {
@@ -489,6 +588,18 @@
             line-height: 1.2;
         }
         
+        /* ===== YEAR TITLE STYLES ===== */
+        .year-title {
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 40px;
+            background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 700;
+            font-family: 'Playfair Display', serif;
+        }
+        
         /* ===== RESPONSIVE STYLES ===== */
         @media (max-width: 1200px) {
             .large-years {
@@ -503,6 +614,10 @@
             .back-button {
                 width: 550px;
                 height: 200px;
+            }
+            
+            .students-grid {
+                grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
             }
         }
         
@@ -540,6 +655,10 @@
             
             .back-button .button-icon {
                 font-size: 4.5rem;
+            }
+            
+            .students-grid {
+                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             }
         }
         
@@ -587,6 +706,10 @@
             .section-title {
                 font-size: 2.5rem;
             }
+            
+            .students-grid {
+                grid-template-columns: 1fr;
+            }
         }
         
         @media (max-width: 576px) {
@@ -624,6 +747,14 @@
             .section-title {
                 font-size: 2rem;
             }
+            
+            .student-card {
+                padding: 25px;
+            }
+            
+            .student-card h3 {
+                font-size: 1.4rem;
+            }
         }
     </style>
 </head>
@@ -643,7 +774,7 @@
                     <i class="fas fa-graduation-cap"></i>
                 </div>
                 <h1 class="glowing-text">VINH DANH</h1>
-                <p class="subtitle">Học Sinh Xuất Sắc - 20 Năm Học</p>
+                <p class="subtitle">Học Sinh Xuất Sắc - Nhiều Năm Học</p>
                 <p class="subtitle">Trường THPT Chuyên ABC</p>
                 <div class="header-decoration"></div>
             </div>
@@ -658,47 +789,60 @@
                 </h2>
                 
                 <div class="large-years">
-                    <!-- Năm học 1 -->
-                    <div class="large-year" onclick="redirectToWebsite('https://example.com/year1')">
+                    <!-- Năm học 2023-2024 -->
+                    <div class="large-year" onclick="showStudents('2023-2024')">
                         <i class="fas fa-star year-icon"></i>
                         <div class="year-period">2020-2021</div>
-                        <div class="year-label">Khóa 1</div>
+                        <div class="year-label">Năm học hiện tại</div>
                     </div>
                     
-                    <!-- Năm học 2 -->
-                    <div class="large-year" onclick="redirectToWebsite('https://example.com/year2')">
+                    <!-- Năm học 2022-2023 -->
+                    <div class="large-year" onclick="showStudents('2022-2023')">
                         <i class="fas fa-trophy year-icon"></i>
                         <div class="year-period">2021-2022</div>
-                        <div class="year-label">Khóa 2</div>
+                        <div class="year-label">Năm học trước</div>
                     </div>
                     
-                    <!-- Năm học 3 -->
-                    <div class="large-year" onclick="redirectToWebsite('https://example.com/year3')">
+                    <!-- Năm học 2021-2022 -->
+                    <div class="large-year" onclick="showStudents('2021-2022')">
                         <i class="fas fa-award year-icon"></i>
                         <div class="year-period">2022-2023</div>
-                        <div class="year-label">Khóa 3</div>
-                    </div>
-                    
-                    <!-- Năm học 4 -->
-                    <div class="large-year" onclick="redirectToWebsite('https://example.com/year4')">
-                        <i class="fas fa-medal year-icon"></i>
-                        <div class="year-period">2023-2024</div>
-                        <div class="year-label">Khóa 4</div>
+                        <div class="year-label">Năm học trước</div>
                     </div>
 
-                    <!-- Năm học 5-->
-                    <div class="large-year" onclick="redirectToWebsite('https://example.com/year5')">
+                    <!-- Năm học 2020-2021 -->
+                    <div class="large-year" onclick="showStudents('2020-2021')">
+                        <i class="fas fa-medal year-icon"></i>
+                        <div class="year-period">2023-2024</div>
+                        <div class="year-label">Năm học trước</div>
+                    </div>
+
+                    <!-- Năm học 2019-2020 -->
+                    <div class="large-year" onclick="showStudents('2019-2020')">
                         <i class="fas fa-crown year-icon"></i>
                         <div class="year-period">2024-2025</div>
-                        <div class="year-label">Khóa 5</div>
+                        <div class="year-label">Năm học trước</div>
                     </div>
+                </div>
+            </div>
+            
+            <!-- Students Section (Hidden by default) -->
+            <div class="students-section" id="studentsSection">
+                <h2 class="section-title">
+                    <i class="fas fa-users"></i>DANH SÁCH HỌC SINH XUẤT SẮC
+                </h2>
+                
+                <h3 class="year-title" id="selectedYearTitle">NĂM HỌC 2023-2024</h3>
+                
+                <div class="students-grid" id="studentsGrid">
+                    <!-- Student cards will be generated here by JavaScript -->
                 </div>
                 
                 <!-- Back Button -->
                 <div class="back-section">
-                    <div class="back-button" onclick="redirectToWebsite('https://example.com/back')">
+                    <div class="back-button" onclick="hideStudents()">
                         <i class="fas fa-arrow-left button-icon"></i>
-                        <div class="button-text">QUAY LẠI</div>
+                        <div class="button-text">QUAY LẠI TRANG CHÍNH</div>
                     </div>
                 </div>
             </div>
@@ -706,7 +850,145 @@
     </div>
         
     <script>
-        // Tạo hiệu ứng hạt nền
+        // ===== DỮ LIỆU HỌC SINH MẪU =====
+        // Bạn có thể thêm dữ liệu thực tế vào đây sau
+        const studentsData = {
+            "2023-2024": [
+                {
+                    name: "NGUYỄN VĂN A",
+                    class: "12A1",
+                    achievement: "Huy chương Vàng Toán Quốc gia, Giải Nhất Tin học",
+                    teacher: "Cô Nguyễn Thị B",
+                    score: "9.5"
+                },
+                {
+                    name: "TRẦN THỊ B",
+                    class: "12A2", 
+                    achievement: "Huy chương Bạc Vật lý, Giải Nhì Hóa học",
+                    teacher: "Thầy Phạm Văn C",
+                    score: "9.2"
+                }
+            ],
+            "2022-2023": [
+                {
+                    name: "LÊ VĂN C",
+                    class: "12A1",
+                    achievement: "Huy chương Vàng Olympic Toán, Giải Nhất Vật lý",
+                    teacher: "Cô Trần Thị D",
+                    score: "9.6"
+                },
+                {
+                    name: "PHẠM THỊ D",
+                    class: "12A3",
+                    achievement: "Huy chương Bạc Hóa học, Giải Ba Sinh học",
+                    teacher: "Thầy Nguyễn Văn E",
+                    score: "9.1"
+                }
+            ],
+            "2021-2022": [
+                {
+                    name: "HOÀNG VĂN E",
+                    class: "12A2",
+                    achievement: "Giải Nhất Quốc gia môn Toán, Huy chương Vàng Tin học",
+                    teacher: "Cô Lê Thị F",
+                    score: "9.7"
+                },
+                {
+                    name: "VŨ THỊ F",
+                    class: "12A1",
+                    achievement: "Huy chương Bạc Vật lý, Giải Nhì Hóa học",
+                    teacher: "Thầy Đặng Văn G",
+                    score: "9.3"
+                }
+            ],
+            "2020-2021": [
+                {
+                    name: "ĐẶNG VĂN G",
+                    class: "12A3",
+                    achievement: "Huy chương Vàng Toán Quốc tế, Giải Nhất Vật lý",
+                    teacher: "Cô Phan Thị H",
+                    score: "9.8"
+                },
+                {
+                    name: "PHAN THỊ H",
+                    class: "12A2",
+                    achievement: "Huy chương Bạc Hóa học, Giải Ba Sinh học",
+                    teacher: "Thầy Bùi Văn I",
+                    score: "9.4"
+                }
+            ],
+            "2019-2020": [
+                {
+                    name: "BÙI VĂN I",
+                    class: "12A1",
+                    achievement: "Giải Nhất Quốc gia môn Toán, Huy chương Vàng Tin học",
+                    teacher: "Cô Võ Thị K",
+                    score: "9.6"
+                },
+                {
+                    name: "VÕ THỊ K",
+                    class: "12A3",
+                    achievement: "Huy chương Bạc Vật lý, Giải Nhì Hóa học",
+                    teacher: "Thầy Ngô Văn L",
+                    score: "9.2"
+                }
+            ]
+        };
+
+        // ===== HÀM HIỂN THỊ DANH SÁCH HỌC SINH =====
+        function showStudents(year) {
+            // Ẩn phần chọn năm học
+            document.getElementById('yearSelection').style.display = 'none';
+            
+            // Hiển thị phần danh sách học sinh
+            const studentsSection = document.getElementById('studentsSection');
+            studentsSection.style.display = 'block';
+            
+            // Cập nhật tiêu đề năm học
+            document.getElementById('selectedYearTitle').textContent = `NĂM HỌC ${year}`;
+            
+            // Tạo các card học sinh
+            const studentsGrid = document.getElementById('studentsGrid');
+            studentsGrid.innerHTML = '';
+            
+            const students = studentsData[year] || [];
+            
+            students.forEach((student, index) => {
+                const card = document.createElement('div');
+                card.classList.add('student-card');
+                
+                // Tạo hình ảnh ngẫu nhiên dựa trên index
+                const gender = index % 2 === 0 ? 'men' : 'women';
+                const imgIndex = (index % 50) + 1;
+                
+                // Lấy thành tích đầu tiên để hiển thị badge
+                const firstAchievement = student.achievement.split(',')[0];
+                
+                card.innerHTML = `
+                    <i class="fas fa-user-graduate student-icon"></i>
+                    <img src="https://randomuser.me/api/portraits/${gender}/${imgIndex}.jpg" alt="${student.name}" class="student-image">
+                    <h3>${student.name}</h3>
+                    <p><strong>Lớp:</strong> ${student.class}</p>
+                    <p><strong>Thành tích:</strong> ${student.achievement}</p>
+                    <p><strong>Giáo viên:</strong> ${student.teacher}</p>
+                    <p><strong>Điểm TB:</strong> ${student.score}</p>
+                    <div class="achievement-badge">${firstAchievement}</div>
+                `;
+                
+                studentsGrid.appendChild(card);
+            });
+        }
+
+        // ===== HÀM ẨN DANH SÁCH HỌC SINH =====
+        function hideStudents() {
+            // Ẩn phần danh sách học sinh
+            document.getElementById('studentsSection').style.display = 'none';
+            
+            // Hiển thị phần chọn năm học
+            document.getElementById('yearSelection').style.display = 'block';
+        }
+
+        // ===== TẠO HIỆU ỨNG NỀN =====
         function createParticles() {
             const particlesContainer = document.getElementById('particles');
             const particleCount = 50;
@@ -715,27 +997,17 @@
                 const particle = document.createElement('div');
                 particle.classList.add('particle');
                 
-                // Kích thước ngẫu nhiên
                 const size = Math.random() * 100 + 20;
                 particle.style.width = `${size}px`;
                 particle.style.height = `${size}px`;
-                
-                // Vị trí ngẫu nhiên
                 particle.style.left = `${Math.random() * 100}vw`;
-                
-                // Thời gian animation ngẫu nhiên
-                const duration = Math.random() * 30 + 20;
-                particle.style.animationDuration = `${duration}s`;
-                
-                // Độ trễ ngẫu nhiên
-                const delay = Math.random() * 5;
-                particle.style.animationDelay = `${delay}s`;
+                particle.style.animationDuration = `${Math.random() * 30 + 20}s`;
+                particle.style.animationDelay = `${Math.random() * 5}s`;
                 
                 particlesContainer.appendChild(particle);
             }
         }
         
-        // Tạo các phần tử nổi
         function createFloatingElements() {
             const container = document.getElementById('floatingElements');
             const elementCount = 15;
@@ -744,35 +1016,30 @@
                 const element = document.createElement('div');
                 element.classList.add('floating-element');
                 
-                // Kích thước ngẫu nhiên
                 const size = Math.random() * 150 + 50;
                 element.style.width = `${size}px`;
                 element.style.height = `${size}px`;
-                
-                // Vị trí ngẫu nhiên
                 element.style.left = `${Math.random() * 100}vw`;
-                
-                // Thời gian animation ngẫu nhiên
-                const duration = Math.random() * 40 + 30;
-                element.style.animationDuration = `${duration}s`;
-                
-                // Độ trễ ngẫu nhiên
-                const delay = Math.random() * 10;
-                element.style.animationDelay = `${delay}s`;
+                element.style.animationDuration = `${Math.random() * 40 + 30}s`;
+                element.style.animationDelay = `${Math.random() * 10}s`;
                 
                 container.appendChild(element);
             }
         }
-        
-        // Hàm chuyển hướng đến website
-        function redirectToWebsite(url) {
-            window.open(url, '_blank');
-        }
-        
-        // Khởi tạo khi trang được tải
+
+        // ===== KHỞI TẠO TRANG =====
         document.addEventListener('DOMContentLoaded', function() {
             createParticles();
             createFloatingElements();
+            
+            console.log("=== TRANG CHÍNH HỌC SINH XUẤT SẮC ===");
+            console.log("Có 5 năm học để lựa chọn:");
+            console.log("- 2023-2024 (Năm học hiện tại)");
+            console.log("- 2022-2023");
+            console.log("- 2021-2022"); 
+            console.log("- 2020-2021");
+            console.log("- 2019-2020");
+            console.log("Mỗi năm học đều có nút QUAY LẠI TRANG CHÍNH");
         });
     </script>
 </body>
