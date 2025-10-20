@@ -852,1392 +852,1608 @@
                     name: "NGUYỄN VĂN A",
                     class: "12A1",
                     achievement: "Huy chương Vàng Toán Quốc gia, Giải Nhất Tin học",
+                    gender: "nam"
                 },
                 {
                     name: "TRẦN THỊ B",
                     class: "12A2", 
                     achievement: "Huy chương Bạc Vật lý, Giải Nhì Hóa học",
-
+                    gender: "nữ"
                 }
             ],
             "2021-2022": [
-                                {
+                {
                     name: "NGUYỄN TRỌNG QUANG MINH",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh, Huy chương Đồng Olympic Tiếng Anh Quốc gia",
+                    gender: "nam"
                 },
                 {
                     name: "VÕ ANH SỰ",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "PHẠM NHẬT MINH",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "KHÚC ĐẶNG THIÊN KHÚC",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "PHẠM NGUYỄN HÀ NGÂN",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
                     teacher: "",
-                    score: ""
+                    score: "",
+                    gender: "nữ"
                 },
                 {
                     name: "NGUYỄN THUỲ DUNG",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "TRỊNH GIA HÂN",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "PHẠM ANH THÁI",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh, Giải Nhất Văn hoá đọc cấp Tỉnh, Khuyến khích Văn hoá đọc Quốc gia",
+                    gender: "nam"
                 },
                 {
                     name: "HỒ THỊ THANH MỸ",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "NGUYỄN HỒNG LÂM",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "NGUYỄN LÊ MINH ĐỨC",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "TRẦN NGUYỄN MINH NHẬT",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "MAI BÁ TÙNG DƯƠNG",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "NGUYỄN VĂN THÀNH TIẾN",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "TRẦN NGUYỄN LINH NHƯ",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Vật lí cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "ĐỖ HOÀNG DUY KHOA",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Vật lí cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "NGUYỄN ĐỨC GIA BẢO",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Vật lí cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "PHẠM ANH THƯ",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Vật lí cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "NGUYỄN PHƯƠNG UYÊN",
                     class: "",
                     achievement: "Giải Nhất Văn hoá đọc cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "NGUYỄN BÙI HÀ DƯƠNG",
                     class: "",
                     achievement: "Giải Nhì KHKT cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "VÕ DƯƠNG HÀ MY",
                     class: "",
                     achievement: "Giải Nhì KHKT cấp Tỉnh",
+                    gender: "nữ"
                 }
             ],
             "2022-2023": [
-                         {
+                {
                     name: "NGUYỄN BÙI KHÔI NGUYÊN",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh, Huy chương Đồng Violympic Toán TV Quốc gia",
+                    gender: "nam"
                 },
                 {
                     name: "PHẠM GIA VĨNH TƯỜNG",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "NGUYỄN NGỌC GIA NHI",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "NGUYỄN MINH DƯƠNG",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "LÊ ĐỨC MINH NHẬT",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "BÙI NGỌC ANH THƯ",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "CAO BẢO TRÂM",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "PHẠM THỊ KHÁNH LY",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "CAO TUYẾT TRINH",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "NGUYỄN LÊ MINH ĐỨC",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh, Huy chương Bạc Violympic Toán TV Quốc gia",
+                    gender: "nam"
                 },
                 {
                     name: "NGUYỄN TRUNG PHONG",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh, Huy chương Đồng Violympic Toán TV Quốc gia",
+                    gender: "nam"
                 },
                 {
                     name: "NGUYỄN HỒNG LÂM",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "PHẠM GIA QUỲNH HƯƠNG",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "TRẦN NGUYỄN LINH NHƯ",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh, Khuyến khích Văn hóa đọc Quốc gia",
+                    gender: "nữ"
                 },
                 {
                     name: "HÀ PHÚ ĐỨC",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "ĐẶNG NGỌC BÌNH AN",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "NGUYỄN NGỌC BẢO CHÂU",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "TRẦN VĂN KHANG",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "PHẠM ANH THƯ",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh, Huy chương Bạc Violympic Vật lý cấp Tỉnh, Khuyến khích Violympic Toán TV Quốc gia",
+                    gender: "nữ"
                 },
                 {
                     name: "PHẠM NGUYỄN TUẤN MINH",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh, Huy chương Bạc Violympic Vật lý cấp Tỉnh, Giải Nhất STEM cấp Tỉnh, Khuyến khích Violympic Toán TV Quốc gia",
+                    gender: "nam"
                 },
                 {
                     name: "NGUYỄN ĐỨC GIA BẢO",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh, Giải Nhì STEM cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "ĐỖ HOÀNG DUY KHOA",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "BÙI NHẬT LÂM",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "NGUYỄN THIỆN NHÂN",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "NGUYỄN PHƯƠNG UYÊN",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh, Giải Nhì STEM cấp Tỉnh, Giải Nhất Văn hóa đọc cấp Tỉnh, Khuyến khích Văn hóa đọc Quốc gia, Cây bút triển vọng UPU Quốc tế lần thứ 52",
+                    gender: "nữ"
                 },
                 {
                     name: "NGUYỄN HOÀNG VŨ",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "HỒ THỊ THANH MỸ",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh, Huy chương Bạc Violympic Toán TV Quốc gia",
+                    gender: "nữ"
                 },
                 {
                     name: "NGUYỄN THUỲ DUNG",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "MAI BÁ TÙNG DƯƠNG",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "TRỊNH GIA HÂN",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "NGÔ NGỌC THẢO VIÊN",
                     class: "",
                     achievement: "Khuyến khích Violympic Toán TV Quốc gia",
+                    gender: "nữ"
                 },
                 {
                     name: "NGUYỄN KHỞI NGUYÊN",
                     class: "",
                     achievement: "Khuyến khích Violympic Toán TV Quốc gia",
+                    gender: "nam"
                 },
                 {
                     name: "NGUYỄN THÀNH GIA BẢO",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Vật lý cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "NGUYỄN LƯƠNG CHÂU LONG",
                     class: "",
                     achievement: "Giải Nhì IOE cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "NGUYỄN HÀ NGÂN",
                     class: "",
                     achievement: "Giải Ba IOE cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "PHẠM NGUYỄN HÀ NGÂN",
                     class: "",
                     achievement: "Giải Ba IOE cấp Tỉnh, Giải Nhất HSG cấp Huyện",
+                    gender: "nữ"
                 },
                 {
                     name: "MAI ĐỨC HƯNG",
                     class: "",
                     achievement: "Giải Ba IOE cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "PHẠM THỊ NHƯ QUỲNH",
                     class: "",
                     achievement: "Giải Nhất HSG cấp Huyện",
+                    gender: "nữ"
                 },
                 {
                     name: "NGUYỄN BÙI HÀ DƯƠNG",
                     class: "",
                     achievement: "Giải Nhì KHKT cấp Tỉnh, Giải Nhì STEM cấp Tỉnh, Công nhận Quốc gia STEM",
+                    gender: "nam"
                 },
                 {
                     name: "ĐỖ THÀNH THÁI",
                     class: "",
                     achievement: "Giải Nhì KHKT cấp Tỉnh, Giải Nhì STEM cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "NGUYỄN VĂN THÀNH TIẾN",
                     class: "",
                     achievement: "Giải Nhất STEM cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "NGUYỄN HỮU TẤT ANH",
                     class: "",
                     achievement: "Giải Nhất STEM cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "MAI NGUYỄN BẢO AN",
                     class: "",
                     achievement: "Giải Nhất STEM cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "TRẦN QUỐC HÙNG",
                     class: "",
                     achievement: "Giải Nhất STEM cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "LÊ TIẾN ĐẠT",
                     class: "",
                     achievement: "Giải Nhì STEM cấp Tỉnh",
+                    gender: "nam"
                 },
                 {
                     name: "NGUYỄN THU GIANG",
                     class: "",
                     achievement: "Giải Nhì STEM cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "NGUYỄN NGỌC NHƯ Ý",
                     class: "",
                     achievement: "Giải Nhì Viết về thầy cô và mái trường cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "NGUYỄN VÕ NGỌC HÀ",
                     class: "",
                     achievement: "Giải Nhì Văn hóa đọc cấp Tỉnh",
+                    gender: "nữ"
                 },
                 {
                     name: "VÕ LÂM ĐOAN PHƯỢNG",
                     class: "",
                     achievement: "Giải Ba Văn hóa đọc Quốc gia",
+                    gender: "nữ"
                 }
             ],
             "2023-2024": [
-                   {
-        name: "DƯƠNG KHẮC VIỆT ANH",
-        class: "",
-        achievement: "Vàng Violympic Toán cấp Tỉnh, Đồng Vioedu cấp Tỉnh",
-    },
-    {
-        name: "NGUYỄN NGỌC BẢO ANH",
-        class: "",
-        achievement: "giải ĐỒNG TỈNH Violympic Toán",
-    },
-    {
-        name: "PHẠM TRÍ DŨNG",
-        class: "",
-        achievement: "Bạc Violympic Toán cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "LÊ NGUYỄN GIA HÂN",
-        class: "",
-        achievement: "Vàng Violympic Toán cấp Tỉnh, Đồng Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "ĐỖ GIA HÂN",
-        class: "",
-        achievement: "Vàng Violympic Toán cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "PHẠM NGUYỄN GIA HUY",
-        class: "",
-        achievement: "Vàng Violympic Toán cấp Tỉnh, Bạc Vioedu cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN NHẬT HUY",
-        class: "",
-        achievement: "Vàng Violympic Toán cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "PHẠM MINH NGỌC",
-        class: "",
-        achievement: "Vàng Violympic Toán cấp Tỉnh, Vàng Vioedu cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN ĐÌNH MINH NHẬT",
-        class: "",
-        achievement: "Vàng Violympic Toán cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN PHƯƠNG NHI",
-        class: "",
-        achievement: "Vàng Violympic Toán cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN PHÚ QUÝ",
-        class: "",
-        achievement: "Khuyến khích Violympic Toán Quốc Gia, Đồng Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "LÊ NGUYỄN BẢO QUYÊN",
-        class: "",
-        achievement: "Bạc Violympic Toán cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN TRỌNG SINH",
-        class: "",
-        achievement: "Vàng Violympic Toán cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN CẨM TÚ",
-        class: "",
-        achievement: "Đồng Violympic Toán cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "ĐỖ PHAN KHÁNH THI",
-        class: "",
-        achievement: "Bạc Violympic Toán cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "PHẠM GIA VĨNH TƯỜNG",
-        class: "",
-        achievement: "Khuyến khích Violympic Toán Quốc Gia",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN LÊ MINH ĐỨC",
-        class: "",
-        achievement: "Đồng Violympic Toán Quốc Gia, Bạc Vioedu cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN NỮ KHÁNH TRANG",
-        class: "",
-        achievement: "Khuyến khích Violympic Toán Quốc Gia",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN NGỌC BẢO CHÂU",
-        class: "",
-        achievement: "Khuyến khích Violympic Toán Quốc Gia, Đồng Vioedu cấp Tỉnh, Hoàn thành tốt IOE Quốc Gia, Bạc Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "PHẠM GIA QUỲNH HƯƠNG",
-        class: "",
-        achievement: "Vàng Violympic Toán cấp Tỉnh, Đồng Vioedu cấp Tỉnh, Hoàn thành tốt IOE Quốc Gia, Vàng Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN HỒNG LÂM",
-        class: "",
-        achievement: "Đồng Violympic Toán cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "PHẠM NHẬT MINH",
-        class: "",
-        achievement: "Bạc Violympic Toán cấp Tỉnh, Hoàn thành tốt IOE Quốc Gia",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "HOÀNG MINH HIẾU",
-        class: "",
-        achievement: "Đồng Violympic Toán cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "ĐOÀN KHÁNH NHI",
-        class: "",
-        achievement: "Đồng Violympic Toán cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "HÀ PHÚ ĐỨC",
-        class: "",
-        achievement: "Bạc Violympic Toán cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN TRUNG PHONG",
-        class: "",
-        achievement: "Đồng Violympic Toán cấp Tỉnh, Đồng Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "PHẠM THÁI MINH PHÚC",
-        class: "",
-        achievement: "Bạc Violympic Toán cấp Tỉnh, Nhất IOE cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "TRẦN VĂN HOÀNG",
-        class: "",
-        achievement: "Đồng Violympic Toán cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "TRẦN VĂN KHANG",
-        class: "",
-        achievement: "Đồng Violympic Toán cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "HỒ VIẾT XUÂN",
-        class: "",
-        achievement: "Đồng Violympic Toán cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN THIỆN NHÂN",
-        class: "",
-        achievement: "Bạc Violympic Toán Quốc Gia, Khuyến khích Violympic KHTN Quốc Gia",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "PHẠM NGUYỄN TUẤN MINH",
-        class: "",
-        achievement: "Vàng Violympic Toán cấp Tỉnh, Vàng Vioedu cấp Tỉnh, Khuyến khích Violympic KHTN Quốc Gia",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN THẢO NGUYÊN",
-        class: "",
-        achievement: "Vàng Violympic Toán cấp Tỉnh, Nhất IOE cấp Tỉnh, Khuyến khích Tiếng Anh cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "TRỊNH CÔNG ĐỨC",
-        class: "",
-        achievement: "Đồng Violympic Toán Quốc Gia",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "PHẠM ANH THƯ",
-        class: "",
-        achievement: "Đồng Violympic Toán Quốc Gia, Đồng Violympic KHTN Quốc Gia",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "TRẦN MẠNH HÙNG",
-        class: "",
-        achievement: "Vàng Violympic Toán cấp Tỉnh, Hoàn thành tốt IOE Quốc Gia",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "TRẦN MẠNH DŨNG",
-        class: "",
-        achievement: "Khuyến khích Violympic Toán Quốc Gia",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "ĐẶNG DUY BẢO",
-        class: "",
-        achievement: "Khuyến khích Violympic Toán Quốc Gia",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "PHẠM LÊ ANH THƯ",
-        class: "",
-        achievement: "Vàng Violympic Toán cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "BÙI NHẬT LÂM",
-        class: "",
-        achievement: "Bạc Violympic Toán cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "HỒ NGỌC TƯỜNG NHI",
-        class: "",
-        achievement: "Đồng Violympic Toán cấp Tỉnh, Khuyến khích Violympic KHTN Quốc Gia",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "ĐỖ HOÀNG DUY KHOA",
-        class: "",
-        achievement: "Vàng Violympic Toán cấp Tỉnh, Đồng Vioedu cấp Tỉnh, Khuyến khích Violympic KHTN Quốc Gia, Nhất Toán cấp Huyện",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "LƯU GIA BẢO",
-        class: "",
-        achievement: "Vàng Violympic Toán cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN PHƯƠNG UYÊN",
-        class: "",
-        achievement: "Bạc Violympic Toán cấp Tỉnh, Đồng Violympic KHTN Quốc Gia, Cây bút triển vọng Viết thư UPU",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "TRẦN NGUYỄN MINH NHẬT",
-        class: "",
-        achievement: "Khuyến khích Violympic Toán Quốc Gia",
-        teacher: "",
-        score: ""
-    },
+                {
+                    name: "DƯƠNG KHẮC VIỆT ANH",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh, Đồng Vioedu cấp Tỉnh",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN NGỌC BẢO ANH",
+                    class: "",
+                    achievement: "giải ĐỒNG TỈNH Violympic Toán",
+                    gender: "nữ"
+                },
+                {
+                    name: "PHẠM TRÍ DŨNG",
+                    class: "",
+                    achievement: "Bạc Violympic Toán cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "LÊ NGUYỄN GIA HÂN",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh, Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "ĐỖ GIA HÂN",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "PHẠM NGUYỄN GIA HUY",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh, Bạc Vioedu cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN NHẬT HUY",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "PHẠM MINH NGỌC",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh, Vàng Vioedu cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN ĐÌNH MINH NHẬT",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN PHƯƠNG NHI",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN PHÚ QUÝ",
+                    class: "",
+                    achievement: "Khuyến khích Violympic Toán Quốc Gia, Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "LÊ NGUYỄN BẢO QUYÊN",
+                    class: "",
+                    achievement: "Bạc Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN TRỌNG SINH",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN CẨM TÚ",
+                    class: "",
+                    achievement: "Đồng Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "ĐỖ PHAN KHÁNH THI",
+                    class: "",
+                    achievement: "Bạc Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "PHẠM GIA VĨNH TƯỜNG",
+                    class: "",
+                    achievement: "Khuyến khích Violympic Toán Quốc Gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN LÊ MINH ĐỨC",
+                    class: "",
+                    achievement: "Đồng Violympic Toán Quốc Gia, Bạc Vioedu cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN NỮ KHÁNH TRANG",
+                    class: "",
+                    achievement: "Khuyến khích Violympic Toán Quốc Gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN NGỌC BẢO CHÂU",
+                    class: "",
+                    achievement: "Khuyến khích Violympic Toán Quốc Gia, Đồng Vioedu cấp Tỉnh, Hoàn thành tốt IOE Quốc Gia, Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "PHẠM GIA QUỲNH HƯƠNG",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh, Đồng Vioedu cấp Tỉnh, Hoàn thành tốt IOE Quốc Gia, Vàng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN HỒNG LÂM",
+                    class: "",
+                    achievement: "Đồng Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "PHẠM NHẬT MINH",
+                    class: "",
+                    achievement: "Bạc Violympic Toán cấp Tỉnh, Hoàn thành tốt IOE Quốc Gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "HOÀNG MINH HIẾU",
+                    class: "",
+                    achievement: "Đồng Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "ĐOÀN KHÁNH NHI",
+                    class: "",
+                    achievement: "Đồng Violympic Toán cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "HÀ PHÚ ĐỨC",
+                    class: "",
+                    achievement: "Bạc Violympic Toán cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN TRUNG PHONG",
+                    class: "",
+                    achievement: "Đồng Violympic Toán cấp Tỉnh, Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "PHẠM THÁI MINH PHÚC",
+                    class: "",
+                    achievement: "Bạc Violympic Toán cấp Tỉnh, Nhất IOE cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "TRẦN VĂN HOÀNG",
+                    class: "",
+                    achievement: "Đồng Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "TRẦN VĂN KHANG",
+                    class: "",
+                    achievement: "Đồng Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "HỒ VIẾT XUÂN",
+                    class: "",
+                    achievement: "Đồng Violympic Toán cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN THIỆN NHÂN",
+                    class: "",
+                    achievement: "Bạc Violympic Toán Quốc Gia, Khuyến khích Violympic KHTN Quốc Gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "PHẠM NGUYỄN TUẤN MINH",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh, Vàng Vioedu cấp Tỉnh, Khuyến khích Violympic KHTN Quốc Gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN THẢO NGUYÊN",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh, Nhất IOE cấp Tỉnh, Khuyến khích Tiếng Anh cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "TRỊNH CÔNG ĐỨC",
+                    class: "",
+                    achievement: "Đồng Violympic Toán Quốc Gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "PHẠM ANH THƯ",
+                    class: "",
+                    achievement: "Đồng Violympic Toán Quốc Gia, Đồng Violympic KHTN Quốc Gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "TRẦN MẠNH HÙNG",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh, Hoàn thành tốt IOE Quốc Gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "TRẦN MẠNH DŨNG",
+                    class: "",
+                    achievement: "Khuyến khích Violympic Toán Quốc Gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "ĐẶNG DUY BẢO",
+                    class: "",
+                    achievement: "Khuyến khích Violympic Toán Quốc Gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "PHẠM LÊ ANH THƯ",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "BÙI NHẬT LÂM",
+                    class: "",
+                    achievement: "Bạc Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "HỒ NGỌC TƯỜNG NHI",
+                    class: "",
+                    achievement: "Đồng Violympic Toán cấp Tỉnh, Khuyến khích Violympic KHTN Quốc Gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "ĐỖ HOÀNG DUY KHOA",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh, Đồng Vioedu cấp Tỉnh, Khuyến khích Violympic KHTN Quốc Gia, Nhất Toán cấp Huyện",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "LƯU GIA BẢO",
+                    class: "",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN PHƯƠNG UYÊN",
+                    class: "",
+                    achievement: "Bạc Violympic Toán cấp Tỉnh, Đồng Violympic KHTN Quốc Gia, Cây bút triển vọng Viết thư UPU",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "TRẦN NGUYỄN MINH NHẬT",
+                    class: "",
+                    achievement: "Khuyến khích Violympic Toán Quốc Gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
 
-    // IOE
-    {
-        name: "NGUYỄN BÙI ĐÔNG PHƯƠNG",
-        class: "9C",
-        achievement: "Khuyến khích IOE Quốc Gia",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "HÀ CHÂU NGỌC PHƯƠNG",
-        class: "6A",
-        achievement: "Nhì IOE cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "TRẦN NGUYỄN LINH NHƯ",
-        class: "8A",
-        achievement: "Hoàn thành tốt IOE Quốc Gia, Bạc Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "LÊ HOÀNG TUẤN",
-        class: "8A",
-        achievement: "Nhì IOE cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN HÀ NGÂN",
-        class: "9D",
-        achievement: "Hoàn thành tốt IOE Quốc Gia, Khuyến khích Tiếng Anh cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "VÕ NGỌC TRÂM ANH",
-        class: "9D",
-        achievement: "Hoàn thành tốt IOE Quốc Gia",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN ÁNH CẦM",
-        class: "9D",
-        achievement: "Hoàn thành tốt IOE Quốc Gia",
-        teacher: "",
-        score: ""
-    },
+                // IOE
+                {
+                    name: "NGUYỄN BÙI ĐÔNG PHƯƠNG",
+                    class: "9C",
+                    achievement: "Khuyến khích IOE Quốc Gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "HÀ CHÂU NGỌC PHƯƠNG",
+                    class: "6A",
+                    achievement: "Nhì IOE cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "TRẦN NGUYỄN LINH NHƯ",
+                    class: "8A",
+                    achievement: "Hoàn thành tốt IOE Quốc Gia, Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "LÊ HOÀNG TUẤN",
+                    class: "8A",
+                    achievement: "Nhì IOE cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN HÀ NGÂN",
+                    class: "9D",
+                    achievement: "Hoàn thành tốt IOE Quốc Gia, Khuyến khích Tiếng Anh cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "VÕ NGỌC TRÂM ANH",
+                    class: "9D",
+                    achievement: "Hoàn thành tốt IOE Quốc Gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN ÁNH CẦM",
+                    class: "9D",
+                    achievement: "Hoàn thành tốt IOE Quốc Gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
 
-    // Violympic KHTN
-    {
-        name: "NGUYỄN ĐỨC GIA BẢO",
-        class: "9D",
-        achievement: "Khuyến khích Violympic KHTN Quốc Gia",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "TRỊNH NHẬT MINH",
-        class: "6A",
-        achievement: "Đồng Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "LÊ NGỌC ĐÔNG NHI",
-        class: "6A",
-        achievement: "Bạc Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "TRƯƠNG BÙI HOÀNG NHI",
-        class: "6A",
-        achievement: "Bạc Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "DƯƠNG HOÀNG MINH PHÚC",
-        class: "6A",
-        achievement: "Bạc Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN BÙI MINH TUẤN",
-        class: "6A",
-        achievement: "Bạc Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN NGỌC ANH",
-        class: "6B",
-        achievement: "Bạc Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN NGỌC GIA NHI",
-        class: "7A",
-        achievement: "Vàng Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN TRẦN ĐÌNH QUÂN",
-        class: "8A",
-        achievement: "Đồng Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "PHẠM VIẾT BẢO LONG",
-        class: "8A",
-        achievement: "Bạc Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN NGỌC HỒNG ÂN",
-        class: "8A",
-        achievement: "Đồng Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "TRẦN VÕ LÊ DŨNG",
-        class: "8A",
-        achievement: "Vàng Violympic KHTN cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
+                // Violympic KHTN
+                {
+                    name: "NGUYỄN ĐỨC GIA BẢO",
+                    class: "9D",
+                    achievement: "Khuyến khích Violympic KHTN Quốc Gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "TRỊNH NHẬT MINH",
+                    class: "6A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "LÊ NGỌC ĐÔNG NHI",
+                    class: "6A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "TRƯƠNG BÙI HOÀNG NHI",
+                    class: "6A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "DƯƠNG HOÀNG MINH PHÚC",
+                    class: "6A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN BÙI MINH TUẤN",
+                    class: "6A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN NGỌC ANH",
+                    class: "6B",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN NGỌC GIA NHI",
+                    class: "7A",
+                    achievement: "Vàng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN TRẦN ĐÌNH QUÂN",
+                    class: "8A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "PHẠM VIẾT BẢO LONG",
+                    class: "8A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN NGỌC HỒNG ÂN",
+                    class: "8A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "TRẦN VÕ LÊ DŨNG",
+                    class: "8A",
+                    achievement: "Vàng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
 
-    // Thể thao
-    {
-        name: "NGUYỄN BẢO TRUNG",
-        class: "6A",
-        achievement: "Cờ vua",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "VŨ KHẮC ĐẠT",
-        class: "9C",
-        achievement: "Bóng đá",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "BÙI THÀNH ĐẠT",
-        class: "9C",
-        achievement: "Bóng đá",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN TẤN HOÁ",
-        class: "9C",
-        achievement: "Bóng đá",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "HOÀNG GIA HƯNG",
-        class: "9C",
-        achievement: "Bóng đá",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN TRỌNG AN",
-        class: "9D",
-        achievement: "Bóng đá",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN TRẦN MINH PHÚC",
-        class: "9D",
-        achievement: "Bóng đá",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "CAO DUY QUÝ",
-        class: "9A",
-        achievement: "Bóng đá",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "MAI NGUYỄN BẢO AN",
-        class: "9D",
-        achievement: "Bóng đá",
-        teacher: "",
-        score: ""
-    },
+                // Thể thao
+                {
+                    name: "NGUYỄN BẢO TRUNG",
+                    class: "6A",
+                    achievement: "Cờ vua",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "VŨ KHẮC ĐẠT",
+                    class: "9C",
+                    achievement: "Bóng đá",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "BÙI THÀNH ĐẠT",
+                    class: "9C",
+                    achievement: "Bóng đá",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN TẤN HOÁ",
+                    class: "9C",
+                    achievement: "Bóng đá",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "HOÀNG GIA HƯNG",
+                    class: "9C",
+                    achievement: "Bóng đá",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN TRỌNG AN",
+                    class: "9D",
+                    achievement: "Bóng đá",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN TRẦN MINH PHÚC",
+                    class: "9D",
+                    achievement: "Bóng đá",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "CAO DUY QUÝ",
+                    class: "9A",
+                    achievement: "Bóng đá",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "MAI NGUYỄN BẢO AN",
+                    class: "9D",
+                    achievement: "Bóng đá",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
 
-    // Học sinh giỏi văn hóa
-    {
-        name: "NGUYỄN HOÀNG VŨ",
-        class: "",
-        achievement: "Nhất Hóa học cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "NGUYỄN NHẬT AN",
-        class: "",
-        achievement: "Ba GDCD cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "PHẠM PHƯƠNG VY",
-        class: "",
-        achievement: "Ba GDCD cấp Tỉnh",
-        teacher: "",
-        score: ""
-    },
-    {
-        name: "VŨ PHAN ĐỨC BẢO",
-        class: "",
-        achievement: "Khuyến khích Tin học cấp Tỉnh",
-        teacher: "",
-        score: ""
-    }
+                // Học sinh giỏi văn hóa
+                {
+                    name: "NGUYỄN HOÀNG VŨ",
+                    class: "",
+                    achievement: "Nhất Hóa học cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN NHẬT AN",
+                    class: "",
+                    achievement: "Ba GDCD cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "PHẠM PHƯƠNG VY",
+                    class: "",
+                    achievement: "Ba GDCD cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "VŨ PHAN ĐỨC BẢO",
+                    class: "",
+                    achievement: "Khuyến khích Tin học cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                }
             ],
             "2024-2025": [
-{
-    name: "CHU TUẤN HẢI",
-    class: "7B",
-    achievement: "Vàng Violympic Toán cấp Tỉnh, Bạc Vioedu cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "PHẠM TRÍ DŨNG",
-    class: "7A",
-    achievement: "Vàng Violympic Toán cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN LÊ MINH ĐỨC",
-    class: "9A",
-    achievement: "Vàng Violympic Toán cấp Tỉnh, Đồng Violympic KHTN cấp Tỉnh, Ba Toán cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "TRẦN VĂN KHANG",
-    class: "9A",
-    achievement: "Vàng Violympic Toán cấp Tỉnh, Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN NGỌC HỒNG ÂN",
-    class: "9A",
-    achievement: "Vàng Violympic Toán cấp Tỉnh, Vàng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "PHẠM GIA VĨNH TƯỜNG",
-    class: "8A",
-    achievement: "Vàng Toán Tiếng Anh cấp Tỉnh, Đồng Violympic Toán cấp Tỉnh, Vàng Violympic KHTN cấp Tỉnh, Ba IOE cấp Tỉnh, Nhất Văn hóa đọc cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN BÙI KHÔI NGUYÊN",
-    class: "8A",
-    achievement: "Vàng Toán Tiếng Anh cấp Tỉnh, Ba Sản phẩm STEM cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN VIỆT KHANG",
-    class: "9A",
-    achievement: "Vàng Violympic Toán cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "BÙI KHẢ MY",
-    class: "6A",
-    achievement: "Bạc Violympic Toán cấp Tỉnh, Bạc Toán Tiếng Anh cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh, Ba IOE cấp Tỉnh, Đồng Vioedu cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "LÊ NGỌC ĐÔNG NHI",
-    class: "7A",
-    achievement: "Bạc Violympic Toán cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "PHẠM VIẾT BẢO LONG",
-    class: "9A",
-    achievement: "Bạc Violympic Toán cấp Tỉnh, Vàng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "CAO THỊ TUYẾT CHÂU",
-    class: "9A",
-    achievement: "Bạc Violympic Toán cấp Tỉnh, Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN HỒNG LÂM",
-    class: "9A",
-    achievement: "Bạc Violympic Toán cấp Tỉnh, Vàng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "PHẠM THÁI MINH PHÚC",
-    class: "9A",
-    achievement: "Bạc Violympic Toán cấp Tỉnh, Nhì IOE cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "PHẠM MINH NGỌC",
-    class: "7A",
-    achievement: "Đồng Violympic Toán cấp Tỉnh, Ba IOE cấp Tỉnh, Đồng Vioedu cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN LÊ NHƯ Ý",
-    class: "6A",
-    achievement: "Vàng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "ĐỖ TRẦN THẢO NHI",
-    class: "6A",
-    achievement: "Vàng Violympic KHTN cấp Tỉnh, Đồng Vioedu cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "HOÀNG LÂM",
-    class: "7A",
-    achievement: "Vàng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN BÙI MINH TUẤN",
-    class: "7A",
-    achievement: "Vàng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "HOÀNG NHẬT VŨ",
-    class: "9A",
-    achievement: "Vàng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN NỮ KHÁNH TRANG",
-    class: "9A",
-    achievement: "Vàng Violympic KHTN cấp Tỉnh, Ba Lịch sử cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "TRẦN VĂN HOÀNG",
-    class: "9A",
-    achievement: "Vàng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "PHAN NGUYỄN NHÃ UYÊN",
-    class: "6A",
-    achievement: "Bạc Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN YẾN NHI",
-    class: "6A",
-    achievement: "Bạc Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "HUỲNH NGUYÊN PHÚC",
-    class: "7A",
-    achievement: "Bạc Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN NHẬT HUY",
-    class: "7A",
-    achievement: "Bạc Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "PHẠM NGUYỄN GIA HUY",
-    class: "7A",
-    achievement: "Bạc Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "LÊ NGUYỄN GIA HÂN",
-    class: "7A",
-    achievement: "Bạc Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN CẨM TÚ",
-    class: "7A",
-    achievement: "Bạc Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN TRÍ DŨNG",
-    class: "7A",
-    achievement: "Bạc Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN MINH DƯƠNG",
-    class: "8A",
-    achievement: "Bạc Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "TRẦN VÕ LÊ DŨNG",
-    class: "9A",
-    achievement: "Bạc Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "ĐỖ CHUỲ CHI",
-    class: "9A",
-    achievement: "Bạc Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "HỒ BÙI QUANG VINH",
-    class: "9A",
-    achievement: "Bạc Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "PHẠM NHẬT MINH",
-    class: "9A",
-    achievement: "Bạc Violympic KHTN cấp Tỉnh, Nhì IOE cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "PHẠM GIA QUỲNH HƯƠNG",
-    class: "9A",
-    achievement: "Bạc Violympic KHTN cấp Tỉnh, Nhì IOE cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "ĐOÀN KHÁNH NHI",
-    class: "9A",
-    achievement: "Bạc Violympic KHTN cấp Tỉnh, Ba GDCD cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN TRẦN ĐÌNH QUÂN",
-    class: "9A",
-    achievement: "Bạc Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN HOÀNG NGỌC ÁNH",
-    class: "6B",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "PHẠM NGUYỄN HIỀN NHI",
-    class: "6A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh, Nhất Sản phẩm STEM cấp Huyện",
-    teacher: "",
-    score: ""
-},
-{
-    name: "ĐÀO NGUYỄN ĐĂNG KHOA",
-    class: "6A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "ĐẶNG BẢO TRÂM",
-    class: "6A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "VÕ NGỌC VŨ",
-    class: "6A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN VŨ LÂM LY",
-    class: "6A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN TRỌNG SINH",
-    class: "7A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "PHAN NGUYỄN BẢO HÂN",
-    class: "7A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "HOÀNG NGÂN HÀ",
-    class: "7A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "DƯƠNG KHẮC VIỆT ANH",
-    class: "7A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh, Đồng Vioedu cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "ĐẶNG THỊ THANH HUYỀN",
-    class: "8A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "CAO BẢO TRÂM",
-    class: "8A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh, Ba IOE cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "ĐỖ TRẦN ĐĂNG KHOA",
-    class: "8B",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "HÀ PHÚ ĐỨC",
-    class: "9A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGÔ NGỌC THẢO VIÊN",
-    class: "9A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN NGỌC BẢO CHÂU",
-    class: "9A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "LÊ HOÀNG TUẤN",
-    class: "9A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh, Ba IOE cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "LÊ PHẠM NGUYÊN PHÚC",
-    class: "9A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "ĐẶNG NGỌC BÌNH AN",
-    class: "9A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "LÊ NGUYỄN MINH THƯ",
-    class: "9A",
-    achievement: "Đồng Violympic KHTN cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "HÀ CHÂU NGỌC PHƯƠNG",
-    class: "7A",
-    achievement: "Nhì IOE cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN NGỌC GIA NHI",
-    class: "8A",
-    achievement: "Nhì IOE cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "VÕ PHẠM KHÁNH THY",
-    class: "8A",
-    achievement: "Ba IOE cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "TRẦN NGUYỄN LINH NHƯ",
-    class: "9A",
-    achievement: "Nhì Ngữ văn cấp Tỉnh, Ba Văn hóa đọc cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "ĐÀO DIỆU CHI",
-    class: "9C",
-    achievement: "Ba Lịch sử cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "TRẦN THÀNH ĐẠT",
-    class: "6A",
-    achievement: "Ba Sản phẩm STEM cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN VÕ NGỌC HÀ",
-    class: "9A",
-    achievement: "Nhất Sản phẩm STEM cấp Huyện, Khuyến khích Văn hóa đọc cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "TRƯƠNG CÔNG HOÀNG LONG",
-    class: "6A",
-    achievement: "Nhất Sản phẩm STEM cấp Huyện",
-    teacher: "",
-    score: ""
-},
-{
-    name: "NGUYỄN THỊ HỒNG PHÚC",
-    class: "8A",
-    achievement: "Khuyến khích Văn hóa đọc cấp Tỉnh",
-    teacher: "",
-    score: ""
-},
-{
-    name: "LÊ BẢO NGỌC",
-    class: "8A",
-    achievement: "Vàng Violympic KHTN cấp Quốc gia",
-    teacher: "",
-    score: ""
-}
+                {
+                    name: "CHU TUẤN HẢI",
+                    class: "7B",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh, Bạc Vioedu cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "PHẠM TRÍ DŨNG",
+                    class: "7A",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN LÊ MINH ĐỨC",
+                    class: "9A",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh, Đồng Violympic KHTN cấp Tỉnh, Ba Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "TRẦN VĂN KHANG",
+                    class: "9A",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh, Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN NGỌC HỒNG ÂN",
+                    class: "9A",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh, Vàng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "PHẠM GIA VĨNH TƯỜNG",
+                    class: "8A",
+                    achievement: "Vàng Toán Tiếng Anh cấp Tỉnh, Đồng Violympic Toán cấp Tỉnh, Vàng Violympic KHTN cấp Tỉnh, Ba IOE cấp Tỉnh, Nhất Văn hóa đọc cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN BÙI KHÔI NGUYÊN",
+                    class: "8A",
+                    achievement: "Vàng Toán Tiếng Anh cấp Tỉnh, Ba Sản phẩm STEM cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN VIỆT KHANG",
+                    class: "9A",
+                    achievement: "Vàng Violympic Toán cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "BÙI KHẢ MY",
+                    class: "6A",
+                    achievement: "Bạc Violympic Toán cấp Tỉnh, Bạc Toán Tiếng Anh cấp Tỉnh, Bạc Violympic KHTN cấp Tỉnh, Ba IOE cấp Tỉnh, Đồng Vioedu cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "LÊ NGỌC ĐÔNG NHI",
+                    class: "7A",
+                    achievement: "Bạc Violympic Toán cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "PHẠM VIẾT BẢO LONG",
+                    class: "9A",
+                    achievement: "Bạc Violympic Toán cấp Tỉnh, Vàng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "CAO THỊ TUYẾT CHÂU",
+                    class: "9A",
+                    achievement: "Bạc Violympic Toán cấp Tỉnh, Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN HỒNG LÂM",
+                    class: "9A",
+                    achievement: "Bạc Violympic Toán cấp Tỉnh, Vàng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "PHẠM THÁI MINH PHÚC",
+                    class: "9A",
+                    achievement: "Bạc Violympic Toán cấp Tỉnh, Nhì IOE cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "PHẠM MINH NGỌC",
+                    class: "7A",
+                    achievement: "Đồng Violympic Toán cấp Tỉnh, Ba IOE cấp Tỉnh, Đồng Vioedu cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN LÊ NHƯ Ý",
+                    class: "6A",
+                    achievement: "Vàng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "ĐỖ TRẦN THẢO NHI",
+                    class: "6A",
+                    achievement: "Vàng Violympic KHTN cấp Tỉnh, Đồng Vioedu cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "HOÀNG LÂM",
+                    class: "7A",
+                    achievement: "Vàng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN BÙI MINH TUẤN",
+                    class: "7A",
+                    achievement: "Vàng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "HOÀNG NHẬT VŨ",
+                    class: "9A",
+                    achievement: "Vàng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN NỮ KHÁNH TRANG",
+                    class: "9A",
+                    achievement: "Vàng Violympic KHTN cấp Tỉnh, Ba Lịch sử cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "TRẦN VĂN HOÀNG",
+                    class: "9A",
+                    achievement: "Vàng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "PHAN NGUYỄN NHÃ UYÊN",
+                    class: "6A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN YẾN NHI",
+                    class: "6A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "HUỲNH NGUYÊN PHÚC",
+                    class: "7A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN NHẬT HUY",
+                    class: "7A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "PHẠM NGUYỄN GIA HUY",
+                    class: "7A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "LÊ NGUYỄN GIA HÂN",
+                    class: "7A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN CẨM TÚ",
+                    class: "7A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN TRÍ DŨNG",
+                    class: "7A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN MINH DƯƠNG",
+                    class: "8A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "TRẦN VÕ LÊ DŨNG",
+                    class: "9A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "ĐỖ CHUỲ CHI",
+                    class: "9A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "HỒ BÙI QUANG VINH",
+                    class: "9A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "PHẠM NHẬT MINH",
+                    class: "9A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh, Nhì IOE cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "PHẠM GIA QUỲNH HƯƠNG",
+                    class: "9A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh, Nhì IOE cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "ĐOÀN KHÁNH NHI",
+                    class: "9A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh, Ba GDCD cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN TRẦN ĐÌNH QUÂN",
+                    class: "9A",
+                    achievement: "Bạc Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN HOÀNG NGỌC ÁNH",
+                    class: "6B",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "PHẠM NGUYỄN HIỀN NHI",
+                    class: "6A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh, Nhất Sản phẩm STEM cấp Huyện",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "ĐÀO NGUYỄN ĐĂNG KHOA",
+                    class: "6A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "ĐẶNG BẢO TRÂM",
+                    class: "6A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "VÕ NGỌC VŨ",
+                    class: "6A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN VŨ LÂM LY",
+                    class: "6A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN TRỌNG SINH",
+                    class: "7A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "PHAN NGUYỄN BẢO HÂN",
+                    class: "7A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "HOÀNG NGÂN HÀ",
+                    class: "7A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "DƯƠNG KHẮC VIỆT ANH",
+                    class: "7A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh, Đồng Vioedu cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "ĐẶNG THỊ THANH HUYỀN",
+                    class: "8A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "CAO BẢO TRÂM",
+                    class: "8A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh, Ba IOE cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "ĐỖ TRẦN ĐĂNG KHOA",
+                    class: "8B",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "HÀ PHÚ ĐỨC",
+                    class: "9A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGÔ NGỌC THẢO VIÊN",
+                    class: "9A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN NGỌC BẢO CHÂU",
+                    class: "9A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "LÊ HOÀNG TUẤN",
+                    class: "9A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh, Ba IOE cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "LÊ PHẠM NGUYÊN PHÚC",
+                    class: "9A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "ĐẶNG NGỌC BÌNH AN",
+                    class: "9A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "LÊ NGUYỄN MINH THƯ",
+                    class: "9A",
+                    achievement: "Đồng Violympic KHTN cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "HÀ CHÂU NGỌC PHƯƠNG",
+                    class: "7A",
+                    achievement: "Nhì IOE cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "NGUYỄN NGỌC GIA NHI",
+                    class: "8A",
+                    achievement: "Nhì IOE cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "VÕ PHẠM KHÁNH THY",
+                    class: "8A",
+                    achievement: "Ba IOE cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "TRẦN NGUYỄN LINH NHƯ",
+                    class: "9A",
+                    achievement: "Nhì Ngữ văn cấp Tỉnh, Ba Văn hóa đọc cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "ĐÀO DIỆU CHI",
+                    class: "9C",
+                    achievement: "Ba Lịch sử cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "TRẦN THÀNH ĐẠT",
+                    class: "6A",
+                    achievement: "Ba Sản phẩm STEM cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN VÕ NGỌC HÀ",
+                    class: "9A",
+                    achievement: "Nhất Sản phẩm STEM cấp Huyện, Khuyến khích Văn hóa đọc cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "TRƯƠNG CÔNG HOÀNG LONG",
+                    class: "6A",
+                    achievement: "Nhất Sản phẩm STEM cấp Huyện",
+                    teacher: "",
+                    score: "",
+                    gender: "nam"
+                },
+                {
+                    name: "NGUYỄN THỊ HỒNG PHÚC",
+                    class: "8A",
+                    achievement: "Khuyến khích Văn hóa đọc cấp Tỉnh",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                },
+                {
+                    name: "LÊ BẢO NGỌC",
+                    class: "8A",
+                    achievement: "Vàng Violympic KHTN cấp Quốc gia",
+                    teacher: "",
+                    score: "",
+                    gender: "nữ"
+                }
             ]
         };
 
@@ -2263,16 +2479,17 @@
                 const card = document.createElement('div');
                 card.classList.add('student-card');
                 
-                // Tạo hình ảnh ngẫu nhiên dựa trên index
-                const gender = index % 2 === 0 ? 'men' : 'women';
-                const imgIndex = (index % 50) + 1;
+                // Xác định ảnh dựa trên giới tính
+                const imageUrl = student.gender === 'nam' 
+                    ? 'https://i.postimg.cc/2Sns9JkF/Chat-GPT-Image-Oct-20-2025-08-20-11-PM.png'
+                    : 'https://i.postimg.cc/fRYGqFzc/Chat-GPT-Image-Oct-20-2025-08-20-23-PM.png';
                 
                 // Lấy thành tích đầu tiên để hiển thị badge
                 const firstAchievement = student.achievement.split(',')[0];
                 
                 card.innerHTML = `
                     <i class="fas fa-user-graduate student-icon"></i>
-                    <img src="https://randomuser.me/api/portraits/${gender}/${imgIndex}.jpg" alt="${student.name}" class="student-image">
+                    <img src="${imageUrl}" alt="${student.name}" class="student-image">
                     <h3>${student.name}</h3>
                     <p><strong>Lớp:</strong> ${student.class}</p>
                     <div class="achievement-badge">${firstAchievement}</div>
@@ -2337,11 +2554,13 @@
             
             console.log("=== TRANG CHÍNH HỌC SINH XUẤT SẮC ===");
             console.log("Có 5 năm học để lựa chọn:");
-            console.log("- 2023-2024 (Năm học hiện tại)");
-            console.log("- 2022-2023");
-            console.log("- 2021-2022"); 
             console.log("- 2020-2021");
-            console.log("- 2019-2020");
+            console.log("- 2021-2022");
+            console.log("- 2022-2023"); 
+            console.log("- 2023-2024");
+            console.log("- 2024-2025");
             console.log("Mỗi năm học đều có nút QUAY LẠI TRANG CHÍNH");
         });
     </script>
+</body>
+</html>
