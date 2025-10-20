@@ -1230,6 +1230,7 @@
     {
         name: "NGUYỄN NGỌC BẢO ANH",
         class: "",
+        achievement: "giải ĐỒNG TỈNH Violympic Toán",
     },
     {
         name: "PHẠM TRÍ DŨNG",
@@ -2279,9 +2280,6 @@
                     <img src="https://randomuser.me/api/portraits/${gender}/${imgIndex}.jpg" alt="${student.name}" class="student-image">
                     <h3>${student.name}</h3>
                     <p><strong>Lớp:</strong> ${student.class}</p>
-                    <p><strong>Thành tích:</strong> ${student.achievement}</p>
-                    <p><strong>Giáo viên:</strong> ${student.teacher}</p>
-                    <p><strong>Điểm TB:</strong> ${student.score}</p>
                     <div class="achievement-badge">${firstAchievement}</div>
                 `;
                 
@@ -2352,5 +2350,3 @@
             console.log("Mỗi năm học đều có nút QUAY LẠI TRANG CHÍNH");
         });
     </script>
-</body>
-</html>
