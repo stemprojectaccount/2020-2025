@@ -857,15 +857,12 @@
                     name: "NGUYỄN VĂN A",
                     class: "12A1",
                     achievement: "Huy chương Vàng Toán Quốc gia, Giải Nhất Tin học",
-                    teacher: "Cô Nguyễn Thị B",
-                    score: "9.5"
                 },
                 {
                     name: "TRẦN THỊ B",
                     class: "12A2", 
                     achievement: "Huy chương Bạc Vật lý, Giải Nhì Hóa học",
-                    teacher: "Thầy Phạm Văn C",
-                    score: "9.2"
+
                 }
             ],
             "2021-2022": [
@@ -873,29 +870,21 @@
                     name: "NGUYỄN TRỌNG QUANG MINH",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh, Huy chương Đồng Olympic Tiếng Anh Quốc gia",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "VÕ ANH SỰ",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "PHẠM NHẬT MINH",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "KHÚC ĐẶNG THIÊN KHÚC",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "PHẠM NGUYỄN HÀ NGÂN",
@@ -908,113 +897,81 @@
                     name: "NGUYỄN THUỲ DUNG",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "TRỊNH GIA HÂN",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "PHẠM ANH THÁI",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh, Giải Nhất Văn hoá đọc cấp Tỉnh, Khuyến khích Văn hoá đọc Quốc gia",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "HỒ THỊ THANH MỸ",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN HỒNG LÂM",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN LÊ MINH ĐỨC",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "TRẦN NGUYỄN MINH NHẬT",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "MAI BÁ TÙNG DƯƠNG",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN VĂN THÀNH TIẾN",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "TRẦN NGUYỄN LINH NHƯ",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Vật lí cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "ĐỖ HOÀNG DUY KHOA",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Vật lí cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN ĐỨC GIA BẢO",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Vật lí cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "PHẠM ANH THƯ",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Vật lí cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN PHƯƠNG UYÊN",
                     class: "",
                     achievement: "Giải Nhất Văn hoá đọc cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN BÙI HÀ DƯƠNG",
                     class: "",
                     achievement: "Giải Nhì KHKT cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "VÕ DƯƠNG HÀ MY",
                     class: "",
                     achievement: "Giải Nhì KHKT cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 }
             ],
             "2022-2023": [
@@ -1022,344 +979,246 @@
                     name: "NGUYỄN BÙI KHÔI NGUYÊN",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh, Huy chương Đồng Violympic Toán TV Quốc gia",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "PHẠM GIA VĨNH TƯỜNG",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN NGỌC GIA NHI",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN MINH DƯƠNG",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "LÊ ĐỨC MINH NHẬT",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "BÙI NGỌC ANH THƯ",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "CAO BẢO TRÂM",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "PHẠM THỊ KHÁNH LY",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "CAO TUYẾT TRINH",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN LÊ MINH ĐỨC",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh, Huy chương Bạc Violympic Toán TV Quốc gia",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN TRUNG PHONG",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh, Huy chương Đồng Violympic Toán TV Quốc gia",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN HỒNG LÂM",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "PHẠM GIA QUỲNH HƯƠNG",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "TRẦN NGUYỄN LINH NHƯ",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh, Khuyến khích Văn hóa đọc Quốc gia",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "HÀ PHÚ ĐỨC",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "ĐẶNG NGỌC BÌNH AN",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN NGỌC BẢO CHÂU",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "TRẦN VĂN KHANG",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "PHẠM ANH THƯ",
                     class: "",
                     achievement: "Huy chương Vàng Violympic Toán TV cấp Tỉnh, Huy chương Bạc Violympic Vật lý cấp Tỉnh, Khuyến khích Violympic Toán TV Quốc gia",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "PHẠM NGUYỄN TUẤN MINH",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh, Huy chương Bạc Violympic Vật lý cấp Tỉnh, Giải Nhất STEM cấp Tỉnh, Khuyến khích Violympic Toán TV Quốc gia",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN ĐỨC GIA BẢO",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh, Giải Nhì STEM cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "ĐỖ HOÀNG DUY KHOA",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "BÙI NHẬT LÂM",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN THIỆN NHÂN",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN PHƯƠNG UYÊN",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh, Giải Nhì STEM cấp Tỉnh, Giải Nhất Văn hóa đọc cấp Tỉnh, Khuyến khích Văn hóa đọc Quốc gia, Cây bút triển vọng UPU Quốc tế lần thứ 52",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN HOÀNG VŨ",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "HỒ THỊ THANH MỸ",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh, Huy chương Bạc Violympic Toán TV Quốc gia",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN THUỲ DUNG",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "MAI BÁ TÙNG DƯƠNG",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "TRỊNH GIA HÂN",
                     class: "",
                     achievement: "Huy chương Đồng Violympic Toán TV cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGÔ NGỌC THẢO VIÊN",
                     class: "",
                     achievement: "Khuyến khích Violympic Toán TV Quốc gia",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN KHỞI NGUYÊN",
                     class: "",
                     achievement: "Khuyến khích Violympic Toán TV Quốc gia",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN THÀNH GIA BẢO",
                     class: "",
                     achievement: "Huy chương Bạc Violympic Vật lý cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN LƯƠNG CHÂU LONG",
                     class: "",
                     achievement: "Giải Nhì IOE cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN HÀ NGÂN",
                     class: "",
                     achievement: "Giải Ba IOE cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "PHẠM NGUYỄN HÀ NGÂN",
                     class: "",
                     achievement: "Giải Ba IOE cấp Tỉnh, Giải Nhất HSG cấp Huyện",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "MAI ĐỨC HƯNG",
                     class: "",
                     achievement: "Giải Ba IOE cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "PHẠM THỊ NHƯ QUỲNH",
                     class: "",
                     achievement: "Giải Nhất HSG cấp Huyện",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN BÙI HÀ DƯƠNG",
                     class: "",
                     achievement: "Giải Nhì KHKT cấp Tỉnh, Giải Nhì STEM cấp Tỉnh, Công nhận Quốc gia STEM",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "ĐỖ THÀNH THÁI",
                     class: "",
                     achievement: "Giải Nhì KHKT cấp Tỉnh, Giải Nhì STEM cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN VĂN THÀNH TIẾN",
                     class: "",
                     achievement: "Giải Nhất STEM cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN HỮU TẤT ANH",
                     class: "",
                     achievement: "Giải Nhất STEM cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "MAI NGUYỄN BẢO AN",
                     class: "",
                     achievement: "Giải Nhất STEM cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "TRẦN QUỐC HÙNG",
                     class: "",
                     achievement: "Giải Nhất STEM cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "LÊ TIẾN ĐẠT",
                     class: "",
                     achievement: "Giải Nhì STEM cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN THU GIANG",
                     class: "",
                     achievement: "Giải Nhì STEM cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN NGỌC NHƯ Ý",
                     class: "",
                     achievement: "Giải Nhì Viết về thầy cô và mái trường cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "NGUYỄN VÕ NGỌC HÀ",
                     class: "",
                     achievement: "Giải Nhì Văn hóa đọc cấp Tỉnh",
-                    teacher: "",
-                    score: ""
                 },
                 {
                     name: "VÕ LÂM ĐOAN PHƯỢNG",
                     class: "",
                     achievement: "Giải Ba Văn hóa đọc Quốc gia",
-                    teacher: "",
-                    score: ""
                 }
             ],
             "2023-2024": [
@@ -1367,15 +1226,10 @@
         name: "DƯƠNG KHẮC VIỆT ANH",
         class: "",
         achievement: "Vàng Violympic Toán cấp Tỉnh, Đồng Vioedu cấp Tỉnh",
-        teacher: "",
-        score: ""
     },
     {
         name: "NGUYỄN NGỌC BẢO ANH",
         class: "",
-        achievement: "Đồng Violympic Toán cấp Tỉnh",
-        teacher: "",
-        score: ""
     },
     {
         name: "PHẠM TRÍ DŨNG",
