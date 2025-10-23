@@ -2491,7 +2491,6 @@
                     <i class="fas fa-user-graduate student-icon"></i>
                     <img src="${imageUrl}" alt="${student.name}" class="student-image">
                     <h3>${student.name}</h3>
-                    <p><strong>Lớp:</strong> ${student.class}</p>
                     <div class="achievement-badge">${firstAchievement}</div>
                 `;
                 
