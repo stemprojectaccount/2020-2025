@@ -775,6 +775,7 @@
                 <h1 class="glowing-text">BẢNG VINH DANH</h1>
                 <p class="subtitle">Học Sinh Xuất Sắc - Nhiều Năm Học</p>
                 <p class="subtitle">Trường THCS Nguyễn Khuyến</p>
+                <p class="subtitle">TRƯỜNG THCS NGUYỄN KHUYẾN - XÃ EA KAR - TỈNH ĐẮK LẮK</p>
                 <div class="header-decoration"></div>
             </div>
         </header>
