@@ -2,7 +2,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vinh Danh Học Sinh Xuất Sắc - Trường THPT Chuyên ABC</title>
+    <title>Vinh Danh Học Sinh Xuất Sắc - 20 Năm học</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
@@ -30,16 +30,16 @@
             --gradient-gold: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
             --gradient-card: linear-gradient(135deg, rgba(58, 109, 201, 0.8), rgba(42, 77, 155, 0.9));
             --gradient-orange: linear-gradient(135deg, rgba(255, 140, 66, 0.9), rgba(232, 106, 51, 0.9));
-            --gradient-green: linear-gradient(135deg, rgba(76, 175, 80, 0.9), rgba(56, 142, 60, 0.9));
-            --gradient-purple: linear-gradient(135deg, rgba(156, 39, 176, 0.9), rgba(123, 31, 162, 0.9));
-            --gradient-teal: linear-gradient(135deg, rgba(0, 150, 136, 0.9), rgba(0, 121, 107, 0.9));
             --transition-slow: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             --transition-medium: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
             --transition-fast: all 0.3s ease;
         }
         
         body {
-            background: var(--gradient-primary);
+            background: 
+                linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+                url('https://i.postimg.cc/zXBpzDZ3/z7148807256666-b4968c2ce8c2d3face248112ae76bc62.jpg') no-repeat center center fixed;
+            background-size: cover;
             color: var(--text-light);
             min-height: 100vh;
             overflow-x: hidden;
@@ -54,7 +54,7 @@
             width: 100%;
             height: 100%;
             z-index: -3;
-            background: linear-gradient(-45deg, #1a2a6c, #2A4D9B, #3a6dc9, #4d8ae6, #1a2a6c);
+            background: linear-gradient(-45deg, rgba(26, 42, 108, 0.2), rgba(42, 77, 155, 0.2), rgba(58, 109, 201, 0.2), rgba(77, 138, 230, 0.2), rgba(26, 42, 108, 0.2));
             background-size: 400% 400%;
             animation: gradientShift 20s ease infinite;
         }
@@ -159,8 +159,8 @@
         .container {
             width: 100%;
             min-height: 100vh;
-            background: rgba(10, 25, 47, 0.85);
-            backdrop-filter: blur(20px);
+            background: rgba(10, 25, 47, 0.3);
+            backdrop-filter: blur(2px);
             position: relative;
             overflow: hidden;
         }
@@ -182,7 +182,7 @@
         /* ===== HEADER STYLES ===== */
         header {
             background: 
-                linear-gradient(135deg, rgba(42, 77, 155, 0.9), rgba(58, 109, 201, 0.8)),
+                linear-gradient(135deg, rgba(42, 77, 155, 0.4), rgba(58, 109, 201, 0.3)),
                 url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path d="M0,0 L100,0 L100,100 Z" fill="rgba(255,215,0,0.1)"/></svg>');
             color: var(--text-light);
             text-align: center;
@@ -248,8 +248,9 @@
             }
         }
         
+        /* CHỈNH SỬA: Làm chữ VINH DANH to hơn */
         .glowing-text {
-            font-size: 7rem;
+            font-size: 7rem; /* Tăng từ 5rem lên 7rem */
             margin-bottom: 20px;
             text-shadow: 0 0 10px rgba(254 , 224 , 255 , 0 ), 0 0 20px rgba(255, 215, 0, 0.5), 0 0 30px rgba(255, 215, 0, 0 );
             position: relative;
@@ -415,36 +416,44 @@
             font-weight: 500;
         }
         
-        /* ===== STUDENTS GRID STYLES ===== */
+        /* ===== STUDENT CARDS STYLES ===== */
         .students-section {
+            display: none;
             width: 100%;
             max-width: 1400px;
-            margin: 0 auto;
-            display: none;
+        }
+        
+        .year-title {
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 50px;
+            color: var(--gold-color);
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+            font-weight: 700;
         }
         
         .students-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 30px;
-            margin-top: 40px;
+            margin-bottom: 60px;
         }
         
         .student-card {
-            background: linear-gradient(135deg, rgba(58, 109, 201, 0.7), rgba(42, 77, 155, 0.8));
+            background: linear-gradient(135deg, rgba(58, 109, 201, 0.8), rgba(42, 77, 155, 0.9));
             border-radius: 20px;
-            padding: 30px;
+            padding: 25px;
+            text-align: center;
             border: 2px solid rgba(255, 215, 0, 0.4);
             transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            cursor: pointer;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 215, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+            min-height: 350px;
             display: flex;
             flex-direction: column;
             align-items: center;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
-            min-height: 280px;
+            justify-content: space-between;
         }
         
         .student-card::before {
@@ -464,80 +473,68 @@
         }
         
         .student-card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.4), 0 0 30px rgba(255, 215, 0, 0.4);
+            transform: translateY(-10px) scale(1.03);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 30px rgba(255, 215, 0, 0.4);
+        }
+        
+        .student-icon {
+            font-size: 3rem;
+            color: var(--gold-color);
+            margin-bottom: 15px;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
         }
         
         .student-image {
-            width: 100px;
-            height: 100px;
+            width: 120px;
+            height: 120px;
             border-radius: 50%;
             object-fit: cover;
-            border: 3px solid rgba(255, 215, 0, 0.5);
+            border: 3px solid var(--gold-color);
             margin-bottom: 20px;
-            box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
         }
         
         .student-card h3 {
             font-size: 1.6rem;
             margin-bottom: 15px;
-            background: linear-gradient(45deg, #FFD700, #FFA500);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: var(--text-light);
             font-weight: 700;
-            line-height: 1.3;
-        }
-        
-        .student-card p {
-            margin-bottom: 10px;
-            font-size: 1.1rem;
-            color: #e0e0ff;
-            line-height: 1.5;
-        }
-        
-        .student-icon {
-            font-size: 2.5rem;
-            margin-bottom: 15px;
-            color: #FFD700;
-            text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
-            filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.5));
         }
         
         .achievement-badge {
-            background: linear-gradient(135deg, rgba(255, 140, 66, 0.8), rgba(232, 106, 51, 0.8));
-            padding: 8px 15px;
-            border-radius: 20px;
-            font-size: 0.9rem;
-            font-weight: 600;
-            margin-top: 10px;
+            background: linear-gradient(45deg, rgba(255, 215, 0, 0.2), rgba(255, 165, 0, 0.2));
             border: 1px solid rgba(255, 215, 0, 0.5);
+            border-radius: 10px;
+            padding: 10px 15px;
+            font-size: 1rem;
+            color: var(--gold-light);
+            font-weight: 500;
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
         }
         
         /* ===== BACK BUTTON STYLES ===== */
         .back-section {
-            width: 100%;
-            text-align: center;
+            display: flex;
+            justify-content: center;
             margin-top: 50px;
         }
         
         .back-button {
-            background: linear-gradient(135deg, rgba(76, 175, 80, 0.9), rgba(56, 142, 60, 0.9));
-            border-radius: 35px;
-            width: 650px;
-            height: 240px;
+            background: linear-gradient(135deg, rgba(255, 140, 66, 0.9), rgba(232, 106, 51, 0.9));
+            border-radius: 25px;
+            width: 400px;
+            height: 80px;
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-size: 3rem;
+            font-size: 1.8rem;
             font-weight: bold;
-            border: 4px solid rgba(255, 215, 0, 0.7);
+            border: 2px solid rgba(255, 215, 0, 0.7);
             transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5), 0 0 40px rgba(76, 175, 80, 0.6);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), 0 0 20px rgba(255, 140, 66, 0.5);
             cursor: pointer;
             text-align: center;
-            padding: 40px;
-            margin: 0 auto;
+            padding: 20px;
             position: relative;
             overflow: hidden;
         }
@@ -559,11 +556,84 @@
         }
         
         .back-button:hover {
-            transform: translateY(-15px) scale(1.1);
-            box-shadow: 0 35px 70px rgba(0, 0, 0, 0.6), 0 0 60px rgba(76, 175, 80, 0.8);
+            transform: translateY(-5px) scale(1.05);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(255, 140, 66, 0.7);
         }
         
         .back-button .button-icon {
+            font-size: 2.5rem;
+            margin-right: 15px;
+            color: #FFD700;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+            filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.5));
+            transition: all 0.4s;
+        }
+        
+        .back-button:hover .button-icon {
+            transform: scale(1.2) rotate(-10deg);
+            filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.8));
+        }
+        
+        .back-button .button-text {
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+        }
+        
+        /* ===== MASTERS/PHD BUTTON STYLES ===== */
+        .masters-phd-section {
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+        }
+        
+        .masters-phd-button {
+            background: linear-gradient(135deg, rgba(255, 140, 66, 0.9), rgba(232, 106, 51, 0.9));
+            border-radius: 35px;
+            width: 650px;
+            height: 240px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            font-weight: bold;
+            border: 4px solid rgba(255, 215, 0, 0.7);
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5), 0 0 40px rgba(255, 140, 66, 0.6);
+            cursor: pointer;
+            text-align: center;
+            padding: 40px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .masters-phd-button::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.2), transparent);
+            transform: translateX(-100%) skewX(-15deg);
+            transition: transform 0.8s;
+        }
+        
+        .masters-phd-button:hover::before {
+            transform: translateX(100%) skewX(-15deg);
+        }
+        
+        .masters-phd-button:hover {
+            transform: translateY(-15px) scale(1.1);
+            box-shadow: 0 35px 70px rgba(0, 0, 0, 0.6), 0 0 60px rgba(255, 140, 66, 0.8);
+        }
+        
+        .masters-phd-button .button-icon {
             font-size: 5.5rem;
             margin-bottom: 20px;
             color: #FFD700;
@@ -572,12 +642,12 @@
             transition: all 0.4s;
         }
         
-        .back-button:hover .button-icon {
-            transform: scale(1.3) rotate(-15deg);
+        .masters-phd-button:hover .button-icon {
+            transform: scale(1.3) rotate(15deg);
             filter: drop-shadow(0 0 25px rgba(255, 215, 0, 1));
         }
         
-        .back-button .button-text {
+        .masters-phd-button .button-text {
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -585,18 +655,6 @@
             letter-spacing: 1px;
             text-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
             line-height: 1.2;
-        }
-        
-        /* ===== YEAR TITLE STYLES ===== */
-        .year-title {
-            font-size: 3rem;
-            text-align: center;
-            margin-bottom: 40px;
-            background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-weight: 700;
-            font-family: 'Playfair Display', serif;
         }
         
         /* ===== RESPONSIVE STYLES ===== */
@@ -610,13 +668,9 @@
                 height: 340px;
             }
             
-            .back-button {
+            .masters-phd-button {
                 width: 550px;
                 height: 200px;
-            }
-            
-            .students-grid {
-                grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
             }
         }
         
@@ -646,18 +700,18 @@
                 font-size: 5rem;
             }
             
-            .back-button {
+            .masters-phd-button {
                 width: 450px;
                 height: 180px;
                 font-size: 2.5rem;
             }
             
-            .back-button .button-icon {
+            .masters-phd-button .button-icon {
                 font-size: 4.5rem;
             }
             
             .students-grid {
-                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
             }
         }
         
@@ -692,13 +746,13 @@
                 font-size: 4rem;
             }
             
-            .back-button {
+            .masters-phd-button {
                 width: 90%;
                 height: 150px;
                 font-size: 2rem;
             }
             
-            .back-button .button-icon {
+            .masters-phd-button .button-icon {
                 font-size: 3.5rem;
             }
             
@@ -707,7 +761,19 @@
             }
             
             .students-grid {
-                grid-template-columns: 1fr;
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+                gap: 20px;
+            }
+            
+            .student-card {
+                min-height: 300px;
+                padding: 20px;
+            }
+            
+            .back-button {
+                width: 300px;
+                height: 70px;
+                font-size: 1.5rem;
             }
         }
         
@@ -733,13 +799,13 @@
                 font-size: 3.5rem;
             }
             
-            .back-button {
+            .masters-phd-button {
                 height: 130px;
                 font-size: 1.8rem;
                 padding: 20px;
             }
             
-            .back-button .button-icon {
+            .masters-phd-button .button-icon {
                 font-size: 3rem;
             }
             
@@ -747,12 +813,24 @@
                 font-size: 2rem;
             }
             
-            .student-card {
-                padding: 25px;
+            .students-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
             }
             
-            .student-card h3 {
-                font-size: 1.4rem;
+            .student-card {
+                min-height: 280px;
+                padding: 15px;
+            }
+            
+            .back-button {
+                width: 250px;
+                height: 60px;
+                font-size: 1.3rem;
+            }
+            
+            .back-button .button-icon {
+                font-size: 2rem;
             }
         }
     </style>
@@ -773,8 +851,7 @@
                     <i class="fas fa-graduation-cap"></i>
                 </div>
                 <h1 class="glowing-text">BẢNG VINH DANH</h1>
-                <p class="subtitle">Học Sinh Xuất Sắc - Nhiều Năm Học</p>
-                <p class="subtitle">Trường THCS Nguyễn Khuyến</p>
+                <p class="subtitle">HỌC SINH XUẤT XẮC CÁC NĂM HỌC</p>
                 <p class="subtitle">TRƯỜNG THCS NGUYỄN KHUYẾN - XÃ EA KAR - TỈNH ĐẮK LẮK</p>
                 <div class="header-decoration"></div>
             </div>
