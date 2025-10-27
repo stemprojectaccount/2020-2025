@@ -273,7 +273,7 @@
         }
         
         .subtitle {
-            font-size: 2.2rem;
+            font-size: 2rem;
             margin-bottom: 10px;
             position: relative;
             color: #e0e0ff;
