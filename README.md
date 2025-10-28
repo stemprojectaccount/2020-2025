@@ -38,7 +38,7 @@
         body {
             background: 
                 linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
-                url('https://i.postimg.cc/zXBpzDZ3/z7148807256666-b4968c2ce8c2d3face248112ae76bc62.jpg') no-repeat center center fixed;
+                url('https://i.postimg.cc/yNGwbLmr/DSC08251.jpg') no-repeat center center fixed;
             background-size: cover;
             color: var(--text-light);
             min-height: 100vh;
@@ -215,7 +215,7 @@
             position: absolute;
             top: 30px;
             left: 50px;
-            height: 180px;
+            height: 250px;
             width: auto;
             z-index: 10;
             filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.7));
@@ -416,173 +416,6 @@
             font-weight: 500;
         }
         
-        /* ===== STUDENT CARDS STYLES ===== */
-        .students-section {
-            display: none;
-            width: 100%;
-            max-width: 1400px;
-        }
-        
-        .year-title {
-            font-size: 3rem;
-            text-align: center;
-            margin-bottom: 50px;
-            color: var(--gold-color);
-            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
-            font-weight: 700;
-        }
-        
-        .students-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 30px;
-            margin-bottom: 60px;
-        }
-        
-        .student-card {
-            background: linear-gradient(135deg, rgba(58, 109, 201, 0.8), rgba(42, 77, 155, 0.9));
-            border-radius: 20px;
-            padding: 25px;
-            text-align: center;
-            border: 2px solid rgba(255, 215, 0, 0.4);
-            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 215, 0, 0.2);
-            position: relative;
-            overflow: hidden;
-            min-height: 350px;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: space-between;
-        }
-        
-        .student-card::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
-            transform: translateX(-100%) skewX(-15deg);
-            transition: transform 0.8s;
-        }
-        
-        .student-card:hover::before {
-            transform: translateX(100%) skewX(-15deg);
-        }
-        
-        .student-card:hover {
-            transform: translateY(-10px) scale(1.03);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 30px rgba(255, 215, 0, 0.4);
-        }
-        
-        .student-icon {
-            font-size: 3rem;
-            color: var(--gold-color);
-            margin-bottom: 15px;
-            text-shadow: 0 0 10px rgba(255, 215, 0, 0.7);
-        }
-        
-        .student-image {
-            width: 120px;
-            height: 120px;
-            border-radius: 50%;
-            object-fit: cover;
-            border: 3px solid var(--gold-color);
-            margin-bottom: 20px;
-            box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
-        }
-        
-        .student-card h3 {
-            font-size: 1.6rem;
-            margin-bottom: 15px;
-            color: var(--text-light);
-            font-weight: 700;
-        }
-        
-        .achievement-badge {
-            background: linear-gradient(45deg, rgba(255, 215, 0, 0.2), rgba(255, 165, 0, 0.2));
-            border: 1px solid rgba(255, 215, 0, 0.5);
-            border-radius: 10px;
-            padding: 10px 15px;
-            font-size: 1rem;
-            color: var(--gold-light);
-            font-weight: 500;
-            box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
-        }
-        
-        /* ===== BACK BUTTON STYLES ===== */
-        .back-section {
-            display: flex;
-            justify-content: center;
-            margin-top: 50px;
-        }
-        
-        .back-button {
-            background: linear-gradient(135deg, rgba(255, 140, 66, 0.9), rgba(232, 106, 51, 0.9));
-            border-radius: 25px;
-            width: 400px;
-            height: 80px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.8rem;
-            font-weight: bold;
-            border: 2px solid rgba(255, 215, 0, 0.7);
-            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), 0 0 20px rgba(255, 140, 66, 0.5);
-            cursor: pointer;
-            text-align: center;
-            padding: 20px;
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .back-button::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.2), transparent);
-            transform: translateX(-100%) skewX(-15deg);
-            transition: transform 0.8s;
-        }
-        
-        .back-button:hover::before {
-            transform: translateX(100%) skewX(-15deg);
-        }
-        
-        .back-button:hover {
-            transform: translateY(-5px) scale(1.05);
-            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 30px rgba(255, 140, 66, 0.7);
-        }
-        
-        .back-button .button-icon {
-            font-size: 2.5rem;
-            margin-right: 15px;
-            color: #FFD700;
-            text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
-            filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.5));
-            transition: all 0.4s;
-        }
-        
-        .back-button:hover .button-icon {
-            transform: scale(1.2) rotate(-10deg);
-            filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.8));
-        }
-        
-        .back-button .button-text {
-            background: linear-gradient(45deg, #FFD700, #FFA500);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            font-weight: 700;
-            letter-spacing: 1px;
-            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
-        }
-        
         /* ===== MASTERS/PHD BUTTON STYLES ===== */
         .masters-phd-section {
             width: 100%;
@@ -709,10 +542,6 @@
             .masters-phd-button .button-icon {
                 font-size: 4.5rem;
             }
-            
-            .students-grid {
-                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-            }
         }
         
         @media (max-width: 768px) {
@@ -759,22 +588,6 @@
             .section-title {
                 font-size: 2.5rem;
             }
-            
-            .students-grid {
-                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-                gap: 20px;
-            }
-            
-            .student-card {
-                min-height: 300px;
-                padding: 20px;
-            }
-            
-            .back-button {
-                width: 300px;
-                height: 70px;
-                font-size: 1.5rem;
-            }
         }
         
         @media (max-width: 576px) {
@@ -812,26 +625,6 @@
             .section-title {
                 font-size: 2rem;
             }
-            
-            .students-grid {
-                grid-template-columns: 1fr;
-                gap: 15px;
-            }
-            
-            .student-card {
-                min-height: 280px;
-                padding: 15px;
-            }
-            
-            .back-button {
-                width: 250px;
-                height: 60px;
-                font-size: 1.3rem;
-            }
-            
-            .back-button .button-icon {
-                font-size: 2rem;
-            }
         }
     </style>
 </head>
@@ -851,7 +644,7 @@
                     <i class="fas fa-graduation-cap"></i>
                 </div>
                 <h1 class="glowing-text">BẢNG VINH DANH</h1>
-                <p class="subtitle">HỌC SINH XUẤT XẮC CÁC NĂM HỌC</p>
+                <p class="subtitle">HỌC SINH XUẤT SẮC CÁC NĂM HỌC</p>
                 <p class="subtitle">TRƯỜNG THCS NGUYỄN KHUYẾN - XÃ EA KAR - TỈNH ĐẮK LẮK</p>
                 <div class="header-decoration"></div>
             </div>
