@@ -659,6 +659,79 @@
             line-height: 1.2;
         }
         
+        /* ===== BACK TO HONOR BOARD BUTTON STYLES ===== */
+        .back-to-board-section {
+            width: 100%;
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 50px;
+        }
+        
+        .back-to-board-button {
+            background: linear-gradient(135deg, rgba(26, 42, 108, 0.9), rgba(58, 109, 201, 0.9));
+            border-radius: 25px;
+            width: 500px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.8rem;
+            font-weight: bold;
+            border: 3px solid rgba(255, 215, 0, 0.7);
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), 0 0 25px rgba(26, 42, 108, 0.5);
+            cursor: pointer;
+            text-align: center;
+            padding: 20px;
+            margin: 0 auto;
+            position: relative;
+            overflow: hidden;
+            text-decoration: none; /* Xóa gạch chân */
+            color: inherit; /* Xóa màu tím mặc định */
+        }
+        
+        .back-to-board-button::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.2), transparent);
+            transform: translateX(-100%) skewX(-15deg);
+            transition: transform 0.8s;
+        }
+        
+        .back-to-board-button:hover::before {
+            transform: translateX(100%) skewX(-15deg);
+        }
+        
+        .back-to-board-button:hover {
+            transform: translateY(-8px) scale(1.05);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5), 0 0 35px rgba(26, 42, 108, 0.7);
+            text-decoration: none; /* Đảm bảo không có gạch chân khi hover */
+            color: inherit; /* Đảm bảo không đổi màu khi hover */
+        }
+        
+        .back-to-board-button .button-icon {
+            font-size: 2.5rem;
+            margin-right: 15px;
+            color: #FFD700;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.8);
+            transition: all 0.4s;
+        }
+        
+        .back-to-board-button:hover .button-icon {
+            transform: scale(1.2);
+        }
+        
+        .back-to-board-button .button-text {
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 700;
+        }
+        
         /* ===== RESPONSIVE STYLES ===== */
         @media (max-width: 1200px) {
             .large-years {
@@ -755,6 +828,12 @@
                 font-size: 1.5rem;
             }
             
+            .back-to-board-button {
+                width: 350px;
+                height: 70px;
+                font-size: 1.5rem;
+            }
+            
             .masters-phd-button {
                 width: 90%;
                 height: 150px;
@@ -809,6 +888,16 @@
             }
             
             .back-button .button-icon {
+                font-size: 2rem;
+            }
+            
+            .back-to-board-button {
+                width: 280px;
+                height: 60px;
+                font-size: 1.3rem;
+            }
+            
+            .back-to-board-button .button-icon {
                 font-size: 2rem;
             }
             
@@ -891,7 +980,7 @@
                 </div>
             </div>
             
-            <!-- Students Section (Hidden by default) -->
+          <!-- Students Section (Hidden by default) -->
             <div class="students-section" id="studentsSection">
                 <h2 class="section-title">
                     <i class="fas fa-users"></i>DANH SÁCH HỌC SINH XUẤT SẮC
@@ -910,6 +999,14 @@
                         <div class="button-text">QUAY LẠI TRANG CHÍNH</div>
                     </div>
                 </div>
+            </div>
+            
+            <!-- Back to Honor Board Button -->
+            <div class="back-to-board-section">
+                <a href="https://stemprojectaccount.github.io/BANG-VINH-DANH/" class="back-to-board-button">
+                    <i class="fas fa-home button-icon"></i>
+                    <div class="button-text">QUAY LẠI TRANG BẢNG VINH DANH</div>
+                </a>
             </div>
         </div>
     </div>
