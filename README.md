@@ -434,36 +434,139 @@
             font-weight: 500;
         }
         
-        /* ===== MASTERS/PHD BUTTON STYLES ===== */
-        .masters-phd-section {
+        /* ===== STUDENT CARDS STYLES ===== */
+        .students-section {
+            display: none;
+            width: 100%;
+            max-width: 1400px;
+            text-align: center;
+        }
+        
+        .year-title {
+            font-size: 2.8rem;
+            margin-bottom: 40px;
+            background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: 700;
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .students-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 30px;
+            margin-bottom: 60px;
+        }
+        
+        .student-card {
+            background: linear-gradient(135deg, rgba(58, 109, 201, 0.8), rgba(42, 77, 155, 0.9));
+            border-radius: 20px;
+            padding: 25px;
+            text-align: center;
+            border: 2px solid rgba(255, 215, 0, 0.4);
+            transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3), 0 0 15px rgba(255, 215, 0, 0.2);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 320px;
+        }
+        
+        .student-card::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+            transform: translateX(-100%) skewX(-15deg);
+            transition: transform 0.8s;
+        }
+        
+        .student-card:hover::before {
+            transform: translateX(100%) skewX(-15deg);
+        }
+        
+        .student-card:hover {
+            transform: translateY(-10px) scale(1.03);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4), 0 0 30px rgba(255, 215, 0, 0.4);
+        }
+        
+        .student-icon {
+            font-size: 3.5rem;
+            margin-bottom: 15px;
+            color: #FFD700;
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+            filter: drop-shadow(0 0 8px rgba(255, 215, 0, 0.5));
+        }
+        
+        .student-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid rgba(255, 215, 0, 0.6);
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+        }
+        
+        .student-card h3 {
+            font-size: 1.6rem;
+            margin-bottom: 15px;
+            color: #fff;
+            font-weight: 600;
+            line-height: 1.3;
+        }
+        
+        .achievement-badge {
+            background: linear-gradient(45deg, #FFD700, #FFA500);
+            color: #1a2a6c;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 1rem;
+            font-weight: 600;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 100%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        
+        /* ===== BACK BUTTON STYLES ===== */
+        .back-section, .back-to-board-section {
             width: 100%;
             text-align: center;
             margin-top: 30px;
         }
         
-        .masters-phd-button {
+        .back-button, .back-to-board-button {
             background: linear-gradient(135deg, rgba(255, 140, 66, 0.9), rgba(232, 106, 51, 0.9));
             border-radius: 35px;
-            width: 650px;
-            height: 240px;
+            width: 500px;
+            height: 100px;
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
-            font-size: 3rem;
+            font-size: 1.8rem;
             font-weight: bold;
             border: 4px solid rgba(255, 215, 0, 0.7);
             transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5), 0 0 40px rgba(255, 140, 66, 0.6);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4), 0 0 25px rgba(255, 140, 66, 0.5);
             cursor: pointer;
             text-align: center;
-            padding: 40px;
+            padding: 20px;
             margin: 0 auto;
             position: relative;
             overflow: hidden;
+            text-decoration: none;
+            color: inherit;
         }
         
-        .masters-phd-button::before {
+        .back-button::before, .back-to-board-button::before {
             content: "";
             position: absolute;
             top: 0;
@@ -475,36 +578,36 @@
             transition: transform 0.8s;
         }
         
-        .masters-phd-button:hover::before {
+        .back-button:hover::before, .back-to-board-button:hover::before {
             transform: translateX(100%) skewX(-15deg);
         }
         
-        .masters-phd-button:hover {
-            transform: translateY(-15px) scale(1.1);
-            box-shadow: 0 35px 70px rgba(0, 0, 0, 0.6), 0 0 60px rgba(255, 140, 66, 0.8);
+        .back-button:hover, .back-to-board-button:hover {
+            transform: translateY(-10px) scale(1.05);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5), 0 0 40px rgba(255, 140, 66, 0.7);
         }
         
-        .masters-phd-button .button-icon {
-            font-size: 5.5rem;
-            margin-bottom: 20px;
+        .back-button .button-icon, .back-to-board-button .button-icon {
+            font-size: 2.5rem;
+            margin-right: 15px;
             color: #FFD700;
-            text-shadow: 0 0 30px rgba(255, 215, 0, 0.9);
-            filter: drop-shadow(0 0 20px rgba(255, 215, 0, 0.7));
+            text-shadow: 0 0 15px rgba(255, 215, 0, 0.7);
+            filter: drop-shadow(0 0 10px rgba(255, 215, 0, 0.5));
             transition: all 0.4s;
         }
         
-        .masters-phd-button:hover .button-icon {
-            transform: scale(1.3) rotate(15deg);
-            filter: drop-shadow(0 0 25px rgba(255, 215, 0, 1));
+        .back-button:hover .button-icon, .back-to-board-button:hover .button-icon {
+            transform: scale(1.2);
+            filter: drop-shadow(0 0 15px rgba(255, 215, 0, 0.9));
         }
         
-        .masters-phd-button .button-text {
+        .back-button .button-text, .back-to-board-button .button-text {
             background: linear-gradient(45deg, #FFD700, #FFA500);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            font-weight: 800;
-            letter-spacing: 1px;
-            text-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
             line-height: 1.2;
         }
         
@@ -519,9 +622,9 @@
                 height: 340px;
             }
             
-            .masters-phd-button {
-                width: 550px;
-                height: 200px;
+            .back-button, .back-to-board-button {
+                width: 450px;
+                height: 90px;
             }
         }
         
@@ -555,14 +658,14 @@
                 font-size: 5rem;
             }
             
-            .masters-phd-button {
-                width: 450px;
-                height: 180px;
-                font-size: 2.5rem;
+            .back-button, .back-to-board-button {
+                width: 400px;
+                height: 80px;
+                font-size: 1.6rem;
             }
             
-            .masters-phd-button .button-icon {
-                font-size: 4.5rem;
+            .back-button .button-icon, .back-to-board-button .button-icon {
+                font-size: 2.2rem;
             }
         }
         
@@ -597,14 +700,19 @@
                 font-size: 4rem;
             }
             
-            .masters-phd-button {
-                width: 90%;
-                height: 150px;
-                font-size: 2rem;
+            .students-grid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+                gap: 20px;
             }
             
-            .masters-phd-button .button-icon {
-                font-size: 3.5rem;
+            .back-button, .back-to-board-button {
+                width: 90%;
+                height: 70px;
+                font-size: 1.4rem;
+            }
+            
+            .back-button .button-icon, .back-to-board-button .button-icon {
+                font-size: 2rem;
             }
             
             .section-title {
@@ -634,14 +742,25 @@
                 font-size: 3.5rem;
             }
             
-            .masters-phd-button {
-                height: 130px;
-                font-size: 1.8rem;
+            .students-grid {
+                grid-template-columns: 1fr;
+                gap: 15px;
+            }
+            
+            .student-card {
+                min-height: 280px;
                 padding: 20px;
             }
             
-            .masters-phd-button .button-icon {
-                font-size: 3rem;
+            .back-button, .back-to-board-button {
+                height: 60px;
+                font-size: 1.2rem;
+                padding: 15px;
+            }
+            
+            .back-button .button-icon, .back-to-board-button .button-icon {
+                font-size: 1.8rem;
+                margin-right: 10px;
             }
             
             .section-title {
@@ -2358,6 +2477,7 @@
             ]
         };
 
+
         // ===== HÀM HIỂN THỊ DANH SÁCH HỌC SINH =====
         function showStudents(year) {
             // Ẩn phần chọn năm học
@@ -2375,6 +2495,17 @@
             studentsGrid.innerHTML = '';
             
             const students = studentsData[year] || [];
+            
+            if (students.length === 0) {
+                studentsGrid.innerHTML = `
+                    <div class="no-students-message">
+                        <i class="fas fa-info-circle" style="font-size: 4rem; margin-bottom: 20px; color: #FFD700;"></i>
+                        <h3 style="color: #fff; font-size: 1.8rem;">Chưa có dữ liệu học sinh cho năm học này</h3>
+                        <p style="color: #e0e0ff; font-size: 1.2rem;">Dữ liệu đang được cập nhật...</p>
+                    </div>
+                `;
+                return;
+            }
             
             students.forEach((student, index) => {
                 const card = document.createElement('div');
@@ -2454,11 +2585,11 @@
             
             console.log("=== TRANG CHÍNH HỌC SINH XUẤT SẮC ===");
             console.log("Có 5 năm học để lựa chọn:");
-            console.log("- 2020-2021");
-            console.log("- 2021-2022");
-            console.log("- 2022-2023"); 
-            console.log("- 2023-2024");
-            console.log("- 2024-2025");
+            console.log("- 2010-2011");
+            console.log("- 2011-2012");
+            console.log("- 2012-2013"); 
+            console.log("- 2013-2014");
+            console.log("- 2014-2015");
             console.log("Mỗi năm học đều có nút QUAY LẠI TRANG CHÍNH");
         });
     </script>
