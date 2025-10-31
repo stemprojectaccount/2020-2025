@@ -272,30 +272,17 @@
             }
         }
         
-        /* CHỈNH SỬA: Làm chữ "HỌC SINH XUẤT SẮC CÁC NĂM HỌC TRƯỜNG THCS NGUYỄN KHUYẾN - XÃ EA KAR - TỈNH ĐẮK LẮK" đậm và vàng hơn */
+        /* CHỈNH SỬA: Làm chữ "HỌC SINH XUẤT SẮC CÁC NĂM HỌC TRƯỜNG THCS NGUYỄN KHUYẾN - XÃ EA KAR - TỈNH ĐẮK LẮK" màu trắng */
         .subtitle {
-            font-size: 2.2rem; /* Tăng kích thước chữ */
+            font-size: 2.2rem; /* Đảm bảo cùng kích thước */
             margin-bottom: 15px;
             position: relative;
-            color: #FFD700; /* Màu vàng đậm */
-            font-weight: 800; /* Làm đậm hơn */
-            text-shadow: 0 0 10px rgba(255, 215, 0, 0.7), 0 0 20px rgba(255, 215, 0, 0.5); /* Thêm hiệu ứng bóng vàng */
-            background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700); /* Gradient vàng cam */
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
+            color: #FFFFFF; /* Màu trắng */
+            font-weight: 600; /* Giữ nguyên độ đậm */
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.7), 0 0 20px rgba(255, 255, 255, 0.5); /* Hiệu ứng bóng trắng */
             padding: 5px 0;
-            letter-spacing: 1px; /* Tăng khoảng cách chữ */
-            font-family: 'Playfair Display', serif; /* Dùng font trang trọng hơn */
-            animation: subtitleGlow 4s ease-in-out infinite alternate; /* Thêm hiệu ứng nhấp nháy */
-        }
-        
-        @keyframes subtitleGlow {
-            0% {
-                text-shadow: 0 0 10px rgba(255, 215, 0, 0.7), 0 0 20px rgba(255, 215, 0, 0.5);
-            }
-            100% {
-                text-shadow: 0 0 15px rgba(255, 215, 0, 0.9), 0 0 25px rgba(255, 215, 0, 0.7), 0 0 35px rgba(255, 215, 0, 0.5);
-            }
+            letter-spacing: 1px;
+            font-family: 'Playfair Display', serif;
         }
         
         .header-decoration {
@@ -634,6 +621,7 @@
                 top: auto;
                 left: auto;
                 margin-bottom: 30px;
+                height: 200px; /* Giảm kích thước logo trên tablet */
             }
             
             .glowing-text {
@@ -671,7 +659,12 @@
         
         @media (max-width: 768px) {
             .header-logo {
-                height: 120px;
+                height: 150px; /* Giảm kích thước logo trên mobile */
+                position: relative;
+                top: auto;
+                left: auto;
+                margin: 0 auto 20px;
+                display: block;
             }
             
             .glowing-text {
@@ -723,6 +716,10 @@
         @media (max-width: 576px) {
             .header {
                 padding: 80px 20px 60px;
+            }
+            
+            .header-logo {
+                height: 120px; /* Giảm kích thước logo trên mobile nhỏ */
             }
             
             .glowing-text {
@@ -798,8 +795,8 @@
                 <h2 class="section-title">
                     <i class="fas fa-calendar-alt"></i>CHỌN NĂM HỌC
                 </h2>
-                
-                <div class="large-years">
+
+        <div class="large-years">
                     <!-- Năm học 2020-2021 -->
                     <div class="large-year" onclick="showStudents('2020-2021')">
                         <i class="fas fa-star year-icon"></i>
@@ -2476,8 +2473,7 @@
                 }
             ]
         };
-
-
+           
         // ===== HÀM HIỂN THỊ DANH SÁCH HỌC SINH =====
         function showStudents(year) {
             // Ẩn phần chọn năm học
@@ -2512,7 +2508,7 @@
                 card.classList.add('student-card');
                 
                 // Xác định ảnh dựa trên giới tính
-                const imageUrl = student.gender === 'nam' 
+                const imageUrl = student.gender === 'male' 
                     ? 'https://i.postimg.cc/2Sns9JkF/Chat-GPT-Image-Oct-20-2025-08-20-11-PM.png'
                     : 'https://i.postimg.cc/fRYGqFzc/Chat-GPT-Image-Oct-20-2025-08-20-23-PM.png';
                 
