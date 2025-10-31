@@ -857,7 +857,7 @@
             <div class="back-to-board-section">
                 <a href="https://stemprojectaccount.github.io/BANG-VINH-DANH/" class="back-to-board-button">
                     <i class="fas fa-home button-icon"></i>
-                    <div class="button-text">QUAY LẠI TRANG </div>
+                    <div class="button-text">QUAY LẠI  </div>
                 </a>
             </div>
         </div>
